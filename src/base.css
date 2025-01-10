@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body {
-  background-color: #fffeef;
+a {
+  @apply text-blue-400 hover:underline;
 }
