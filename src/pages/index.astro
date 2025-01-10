@@ -1,11 +1,17 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Image from 'astro/components/Image.astro';
 ---
 
 <Layout>
-	<Welcome />
+	<div>
+		<div class="text-center px-4">
+			<Image
+				class="mx-auto my-8"
+				src="/gig/feb-2025-malphino-wheres-rei-dj-luca.jpg"
+				alt="1st Feb 2025, Malphino, Where's Rei, abnd DJ Luca in West Norwood Portico Gallery"
+				width={700}
+				height={700} />
+		</div>
+	</div>
 </Layout>
