@@ -1,87 +1,125 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Image from 'astro/components/Image.astro';
+import { Image } from 'astro:assets';
+import { getCollection } from 'astro:content';
+
+const posts = await getCollection('instagram');
+const sortedPosts = posts.sort((a, b) => b.data.timestamp.getTime() - a.data.timestamp.getTime());
+
+const formatDate = (date: Date) => {
+  return date.toLocaleDateString('en-GB', {
+    day: '2-digit',
+    month: '2-digit',
+    year: 'numeric',
+  }).replace(/\//g, '.');
+};
 ---
 
 <Layout>
-		<div class="max-w-xl mx-auto my-8">
-			<img class="mx-auto mb-8"
+		<header class="max-w-xl mx-auto my-8 text-center">
+			<img class="mx-auto"
 						src="/suenabien.png"
-						alt="1st Feb 2025, Malphino, Where's Rei, abnd DJ Luca in West Norwood Portico Gallery"
+						alt="Suena Bien Logo"
 						width={128}
 						height={128} />
+		</header>
 
-				<figure class="bg-white rounded-sm mb-8">
-					<div class="p-4">
-						<a href="https://movimientos.org.uk/event/cumbia-mi-amor-6/">
-							<Image class="bg-white border-gray-100 border"
-								src="/gig/may-2025-movimientos.jpg"
-								alt="4th May 2025, Movimientos - ¡Cumbia Mi Amor!"
-								width={700}
-								height={700} />
-						</a>
-					</div>
-						<figcaption class="px-6 py-4">
-							<h1 class="text-2xl uppercase">¡Cumbia, Mi Amor!</h1>
-							<time datetime="2025-05-04T19:00:00+01:00">04.05.2025</time>
+		<div class="max-w-4xl mx-auto my-8 px-4 grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+      {sortedPosts.map((post) => {
+        const hasDetails = post.data.caption || (post.data.mediaType === 'CAROUSEL_ALBUM' && post.data.localImages && post.data.localImages.length > 1);
+        return (
+          <figure class="post-card bg-white rounded-sm mb-0">
+            {post.data.localImage && (
+              <div class="p-0 pb-2">
+                <Image 
+                  class="main-post-image bg-white border-gray-100  w-full aspect-[3/4] object-cover cursor-pointer"
+                  src={post.data.localImage}
+                  alt={post.data.caption || 'Instagram post'}
+                  width={600}
+                  height={800}
+                />
+              </div>
+            )}
 
-							<p class="py-4">
-							For one special &apos;noche de Cumbia&apos; to coincide with the Cinco de Mayo Mex Fest Movimientos & Mexibrits join forces to present an unparalleled line up of music from around Latin America … Three UK debuts as Argentinian &apos;cumbia trash&apos; exponent Rolando Bruno brings his incredible solo live show alongside DJ sets from Bolivian producer Susobrino fresh back from touring Mexico and the US as well as Mexican vinyl selectora, researcher and activist Hija del Nopal. There will also be a set from our friend and collaborator Gypsy Box and hosted by Mexican soundsystem specialist Krea.
-							</p>
+            <figcaption class="px-4 py-4 pt-2">
+              {hasDetails ? (
+                <details class="text-gray-800 leading-relaxed group">
+                  <summary class="flex items-center justify-between cursor-pointer select-none list-none focus:outline-none hover:text-gray-700 [&::-webkit-details-marker]:hidden w-full">
+                    <span class="text-sm text-gray-500 font-bold flex items-center gap-1">
+                      <span>Details</span>
+                      <svg class="w-4 h-4 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </span>
+                    <time class="text-sm text-gray-500 font-normal" datetime={post.data.timestamp.toISOString()}>
+                      {formatDate(post.data.timestamp)}
+                    </time>
+                  </summary>
+                  
+                  <div class="mt-4 text-sm text-gray-700 rounded-sm border border-gray-100">
+                    {post.data.mediaType === 'CAROUSEL_ALBUM' && post.data.localImages && post.data.localImages.length > 1 && (
+                      <div class="pb-4 flex overflow-x-auto gap-2">
+                        {post.data.localImages.map((img, idx) => (
+                          <button 
+                            type="button" 
+                            class="thumbnail-btn flex-shrink-0 bg-white border border-gray-100 w-16 h-16 rounded-sm overflow-hidden focus:outline-none cursor-pointer transition-all hover:opacity-80 active:scale-95"
+                            data-index={idx}
+                          >
+                            <Image 
+                              class="w-full h-full object-cover"
+                              src={img}
+                              alt={`Carousel slide ${idx + 1}`}
+                              width={600}
+                              height={800}
+                            />
+                          </button>
+                        ))}
+                      </div>
+                    )}
 
-							<p>
-							All powered by brand new soundsystem Suena Bien London&apos;s most anticipated hand built Sound System with 200% love for good vibes!
-							</p>
-						</figcaption>
-				</figure>
+                    {post.data.caption && (
+                      <p class="whitespace-pre-wrap mb-4">
+                        {post.data.caption}
+                      </p>
+                    )}
+                    
+                    <a 
+                      href={post.data.permalink} 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      class="inline-block text-sm text-blue-500 font-bold hover:underline"
+                    >
+                      View on Instagram →
+                    </a>
+                  </div>
+                </details>
+              ) : (
+                <div class="flex items-center justify-between w-full mt-2">
+                  <a 
+                    href={post.data.permalink} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    class="text-sm text-blue-500 font-bold hover:underline"
+                  >
+                    View on Instagram →
+                  </a>
+                  <time class="text-sm text-gray-500" datetime={post.data.timestamp.toISOString()}>
+                    {formatDate(post.data.timestamp)}
+                  </time>
+                </div>
+              )}
+            </figcaption>
+          </figure>
+        );
+      })}
 
-			<figure class="bg-white rounded-sm">
-				<div class="p-4">
-				<Image class="bg-white border-gray-100 border"
-					src="/gig/feb-2025-malphino-wheres-rei-dj-luca-v2.jpg"
-					alt="1st Feb 2025, Malphino, Where's Rei, abnd DJ Luca in West Norwood Portico Gallery"
-					width={700}
-					height={700} />
-			</div>
-					<figcaption class="px-6 py-4">
-<pre class="whitespace-break-spaces font-mono">
-<a class="font-bold block text-center" href="https://www.ticketsource.co.uk/west-norwood-feast/west-norwood-feast-fundraiser/2025-02-01/20:00/t-vvaldlz">
-ticketsource.co.uk/west-norwood-feast
-</a>
-
-¡COMMUNITY FUNDRAISER FOR <a href="https://westnorwoodfeast.com/" class="whitespace-nowrap">WEST NORWOOD FEAST</a>! 📣
-🌴🍍🌞🪩⭐️🌶️🏝️
-
-1st Feb 2025.
-7:30pm till midnight.
-
-LIVE music by
-
-<a href="https://www.instagram.com/malphino/" class="text-lg font-bold">MALPHINO</a>
-"bringin&apos; the crude n&apos; rude cumbia...” &mdash; Iggy pop
-
-<a href="https://www.instagram.com/wheresrei_/" class="text-lg font-bold">Where&apos;s Rei?</a>
-London&apos;s young bright jazz funk stars! 
-
-<b class="text-lg">DJ Luca</b> (100% Dance floor filler vinyl!) 
-
-Adults £10 u-18 £5 u-12 suggested donation £5
-
-Proceeds go to fundraising for the <a href="https://westnorwoodfeast.com/">West Norwood Feast</a> community street market.
-
-at the:
-<a class="" href="https://www.theportico.uk/events">PORTICO GALLERY</a> 23a Knights Hill, LONDON SE27 0HS
-
-Come down to bare witness to South London&apos;s most anticipated hand built Sound System with 200% love for good vibes! 
-
-This is a FAMILY FRIENDLY gig!
-Bring the kids! ✨
-
-Buy tickets here: 
-<a href="https://www.ticketsource.co.uk/west-norwood-feast/west-norwood-feast-fundraiser/2025-02-01/20:00/t-vvaldlz">ticketsource.co.uk/west-norwood-feast</a>
-				</figcaption>
-		</figure>
-	</div>
+      {sortedPosts.length === 0 && (
+        <div class="text-center p-8 bg-white rounded-sm mb-8 text-gray-600 md:col-span-2">
+          <p class="font-bold mb-2">No posts synced yet!</p>
+          <p class="text-sm">Run <code>npm run sync:instagram</code> to pull content from Instagram.</p>
+        </div>
+      )}
+		</div>
 
 	<div class="max-w-xl mx-auto my-12">
 		<figure class="bg-white rounded-sm">
@@ -99,9 +137,52 @@ Buy tickets here:
 				<span class="font-bold ">Suena Bien</span> <span class="px-2 text-2xl"> 🔊 💃</span> <span class="whitespace-nowrap">a soundsystem for dancing.</span>
 			</p>
 			<p class="text-xl">Making speakers. Playing music. Partying together.</p>
-			<p class="pt-4">Strictly good vibes in West Norwood since 2024.
+			<p class="pt-4">Strictly good vibes in West Norwood since 2024.</p>
 			<p class="pt-4">Powered by <a href="https://www.instagram.com/fig.g/">fig.g</a>, <a href="https://oli.zilla.org.uk/">olizilla</a>, <a href="https://www.instagram.com/malphino/">malphino</a> and you 🫵</p>
 		</figcaption>
 		</figure>
 	</div>
+
+  <script>
+    // Get all post cards
+    const cards = document.querySelectorAll('.post-card');
+
+    cards.forEach((card) => {
+      const mainImg = card.querySelector('.main-post-image') as HTMLImageElement;
+      const thumbBtns = card.querySelectorAll('.thumbnail-btn');
+      const details = card.querySelector('details');
+
+      // Clicking main image toggles details element open state
+      if (mainImg && details) {
+        mainImg.addEventListener('click', () => {
+          details.open = !details.open;
+        });
+      }
+
+      if (thumbBtns.length > 0 && mainImg) {
+        // Initially set the first thumbnail as active/highlighted
+        thumbBtns[0].classList.add('ring-2', 'ring-red-950');
+
+        thumbBtns.forEach((btn) => {
+          btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const thumbImg = btn.querySelector('img');
+            if (thumbImg) {
+              // Copy both src and srcset to avoid browser loading lower-res files
+              mainImg.src = thumbImg.src;
+              if (thumbImg.srcset) {
+                mainImg.srcset = thumbImg.srcset;
+              } else {
+                mainImg.removeAttribute('srcset');
+              }
+
+              // Update active highlight class
+              thumbBtns.forEach((b) => b.classList.remove('ring-2', 'ring-red-950'));
+              btn.classList.add('ring-2', 'ring-red-950');
+            }
+          });
+        });
+      }
+    });
+  </script>
 </Layout>
