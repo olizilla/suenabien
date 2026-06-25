@@ -16,17 +16,16 @@ const formatDate = (date: Date) => {
 ---
 
 <Layout>
-		<header class="max-w-xl mx-auto my-8 text-center">
-			<img class="mx-auto"
-						src="/suenabien.png"
-						alt="Suena Bien Logo"
-						width={128}
-						height={128} />
-		</header>
-
-		<div class="max-w-4xl mx-auto px-2">
-		  <iframe class="aspect-video" width="100%" src="https://www.youtube.com/embed/zNbjgIjs-VE?si=Q9t8TW88GV_WZQre" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-		</div>
+	<header class="max-w-xl mx-auto my-8 text-center">
+		<img class="mx-auto"
+					src="/suenabien.png"
+					alt="Suena Bien Logo"
+					width={128}
+					height={128} />
+	</header>
+	<div class="max-w-4xl mx-auto px-2">
+	  <iframe class="aspect-video" width="100%" src="https://www.youtube.com/embed/zNbjgIjs-VE?si=Q9t8TW88GV_WZQre" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	</div>
 		<div class="max-w-4xl mx-auto my-8 px-2 grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
       {sortedPosts.map((post) => {
         const hasDetails = post.data.caption || (post.data.mediaType === 'CAROUSEL_ALBUM' && post.data.localImages && post.data.localImages.length > 1);

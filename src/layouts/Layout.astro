@@ -1,14 +1,32 @@
 ---
 import'../base.css';
+const title = "Suena Bien Soundsystem"
+const desc = "Making speakers. Playing music. Partying together."
+const url = "https://suenabien.co"
+const img = `${url}/suenabien.png`
+const alt = "Round red sticker that says Suena Bien in dancing letters"
+const col = "#FF7145"
 ---
 <!doctype html>
 <html lang="en" class="bg-red-950">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💃</text></svg>">
-		<meta name="generator" content={Astro.generator} />
-		<title>Suena Bien Soundsystem</title>
+		<link rel="icon" href="/suenabien.png">
+		<title>{title}</title>
+    <meta name="description" content={desc} />
+    <link rel="canonical" href={url} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={title} />
+    <meta property="og:url" content={url} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={desc} />
+    <meta property="og:image" content={img} />
+    <meta property="og:image:alt" content={alt} />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="theme-color" content={col} />
 	</head>
 	<body>
 		<slot />
