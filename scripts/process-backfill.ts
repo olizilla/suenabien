@@ -1,4 +1,5 @@
 import fs from 'node:fs/promises';
+import { existsSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -6,7 +7,11 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = path.resolve(__dirname, '..');
 const CONTENT_DIR = path.join(PROJECT_ROOT, 'src/content/instagram');
 const IMAGES_DIR = path.join(CONTENT_DIR, 'images');
-const BACKFILL_PATH = path.join(PROJECT_ROOT, 'instagram-backfill.json');
+
+const backfillScripts = path.join(__dirname, 'instagram-backfill.json');
+const BACKFILL_PATH = existsSync(backfillScripts)
+  ? backfillScripts
+  : path.join(PROJECT_ROOT, 'instagram-backfill.json');
 
 // Generate random delay in milliseconds
 function randomDelay(minSec = 1.0, maxSec = 2.5): Promise<void> {
@@ -109,6 +114,17 @@ function cleanCaption(caption: string): string {
   return trimmed;
 }
 
+// Find if there is an existing JSON file for this shortcode (matches old/new format)
+async function findJsonFile(shortcode: string): Promise<string | null> {
+  try {
+    const files = await fs.readdir(CONTENT_DIR);
+    const match = files.find(f => f === `${shortcode}.json` || f.endsWith(`-${shortcode}.json`));
+    return match ? path.join(CONTENT_DIR, match) : null;
+  } catch {
+    return null;
+  }
+}
+
 async function main() {
   console.log('Starting Instagram Backfill Processing...');
 
@@ -130,14 +146,14 @@ async function main() {
   for (let idx = 0; idx < backfillPosts.length; idx++) {
     const post = backfillPosts[idx];
     const shortcode = post.shortcode;
-    const jsonPath = path.join(CONTENT_DIR, `${shortcode}.json`);
     
     let timestamp: Date | null = null;
     let existingData: any = null;
 
-    if (await fileExists(jsonPath)) {
+    const existingPath = await findJsonFile(shortcode);
+    if (existingPath) {
       try {
-        existingData = JSON.parse(await fs.readFile(jsonPath, 'utf-8'));
+        existingData = JSON.parse(await fs.readFile(existingPath, 'utf-8'));
       } catch {
         // Ignore
       }
@@ -215,7 +231,6 @@ async function main() {
   for (let idx = 0; idx < resolvedPosts.length; idx++) {
     const post = resolvedPosts[idx];
     const shortcode = post.shortcode;
-    const jsonPath = path.join(CONTENT_DIR, `${shortcode}.json`);
     const imagePath = path.join(IMAGES_DIR, `${shortcode}.jpg`);
 
     const imageExists = await fileExists(imagePath);
@@ -264,7 +279,16 @@ async function main() {
       localImages: post.existingData?.localImages,
     };
 
-    await fs.writeFile(jsonPath, JSON.stringify(postData, null, 2), 'utf-8');
+    const dateStr = post.timestamp.toISOString().split('T')[0];
+    const targetJsonPath = path.join(CONTENT_DIR, `${dateStr}-${shortcode}.json`);
+    const existingPath = await findJsonFile(shortcode);
+
+    if (existingPath && existingPath !== targetJsonPath) {
+      await fs.unlink(existingPath);
+      console.log(`[Renaming] Moving post ${shortcode} from ${path.basename(existingPath)} to ${path.basename(targetJsonPath)}`);
+    }
+
+    await fs.writeFile(targetJsonPath, JSON.stringify(postData, null, 2), 'utf-8');
   }
 
   console.log(`Backfill finished. Processed ${resolvedPosts.length} posts. Images downloaded: ${newlySynced}, cached: ${skippedCount}.`);

@@ -100,6 +100,18 @@ function cleanCaption(caption: string): string {
   return trimmed;
 }
 
+// Find if there is an existing JSON file for this shortcode (matches old/new format)
+async function findJsonFile(shortcode: string): Promise<string | null> {
+  try {
+    const files = await fs.readdir(CONTENT_DIR);
+    const match = files.find(f => f === `${shortcode}.json` || f.endsWith(`-${shortcode}.json`));
+    return match ? path.join(CONTENT_DIR, match) : null;
+  } catch {
+    return null;
+  }
+}
+
+
 async function main() {
   const args = parseArgs();
   const username = 'suenabien.soundsystem';
@@ -153,7 +165,11 @@ async function main() {
       const node = edge.node;
       const shortcode = node.shortcode;
       const id = node.id;
-      const jsonPath = path.join(CONTENT_DIR, `${shortcode}.json`);
+      const timestamp = new Date(node.taken_at_timestamp * 1000).toISOString();
+      const dateStr = timestamp.split('T')[0];
+      const targetJsonPath = path.join(CONTENT_DIR, `${dateStr}-${shortcode}.json`);
+      const existingPath = await findJsonFile(shortcode);
+      const jsonExists = existingPath !== null;
 
       // Determine media type
       let mediaType: 'IMAGE' | 'VIDEO' | 'CAROUSEL_ALBUM' = 'IMAGE';
@@ -167,7 +183,6 @@ async function main() {
       
       let isFullyCached = false;
       if (!args.force && !isTargeted) {
-        const jsonExists = await fileExists(jsonPath);
         if (jsonExists) {
           if (mediaType === 'CAROUSEL_ALBUM') {
             const children = node.edge_sidecar_to_children?.edges || [];
@@ -188,7 +203,18 @@ async function main() {
       }
 
       if (isFullyCached) {
-        console.log(`[Cache Hit] Post ${shortcode} is already synced. Skipping.`);
+        if (existingPath && existingPath !== targetJsonPath) {
+          console.log(`[Renaming Cache] Moving post ${shortcode} from ${path.basename(existingPath)} to ${path.basename(targetJsonPath)}`);
+          try {
+            const data = await fs.readFile(existingPath, 'utf-8');
+            await fs.writeFile(targetJsonPath, data, 'utf-8');
+            await fs.unlink(existingPath);
+          } catch (e: any) {
+            console.error(`[Error] Failed to rename cached JSON for ${shortcode}:`, e.message);
+          }
+        } else {
+          console.log(`[Cache Hit] Post ${shortcode} is already synced. Skipping.`);
+        }
         postsProcessed++;
         continue;
       }
@@ -235,7 +261,6 @@ async function main() {
       // 2. Prepare JSON schema data
       const rawCaption = node.edge_media_to_caption?.edges[0]?.node?.text || '';
       const caption = cleanCaption(rawCaption);
-      const timestamp = new Date(node.taken_at_timestamp * 1000).toISOString();
       const permalink = `https://www.instagram.com/p/${shortcode}/`;
 
       const postData = {
@@ -250,8 +275,12 @@ async function main() {
       };
 
       // 3. Write metadata file
-      await fs.writeFile(jsonPath, JSON.stringify(postData, null, 2), 'utf-8');
-      console.log(`  Saved metadata to ${shortcode}.json`);
+      if (existingPath && existingPath !== targetJsonPath) {
+        await fs.unlink(existingPath);
+        console.log(`[Renaming] Moving post ${shortcode} from ${path.basename(existingPath)} to ${path.basename(targetJsonPath)}`);
+      }
+      await fs.writeFile(targetJsonPath, JSON.stringify(postData, null, 2), 'utf-8');
+      console.log(`  Saved metadata to ${dateStr}-${shortcode}.json`);
 
       postsProcessed++;
     }

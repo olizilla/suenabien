@@ -16,6 +16,7 @@ const instagram = defineCollection({
       // Astro's image helper automatically resolves local relative paths
       localImage: image().optional(),
       localImages: z.array(image()).optional(),
+      draft: z.boolean().optional(),
     }),
 });
 
