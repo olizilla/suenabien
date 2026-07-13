@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="124px" height="246px" viewBox="0 0 124 246" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>titan</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="47.2348814%" x2="50%" y2="47.2348814%" id="linearGradient-1">
+            <stop stop-color="#4B413F" offset="0%"></stop>
+            <stop stop-color="#262424" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="titan" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(62.500000, 123.000000) rotate(-90.000000) translate(-62.500000, -123.000000) translate(-60.500000, 60.500000)">
+            <rect id="Rectangle" fill="#403939" x="0" y="0" width="245.862069" height="124.069565"></rect>
+            <rect id="titan-scoop" fill="url(#linearGradient-1)" x="4.27586207" y="4.27826087" width="153.396552" height="115.513043"></rect>
+            <rect id="titan-scoop-bar" fill="#403939" x="4.27586207" y="41.7130435" width="119.724138" height="3.74347826"></rect>
+            <polygon id="titan-scoop-bar" fill="#403939" transform="translate(56.120690, 60.697826) rotate(-90.000000) translate(-56.120690, -60.697826) " points="-3.77496252 58.8271364 116.016342 58.8271364 116.016342 62.5685157 -3.77496252 62.5685157"></polygon>
+            <polygon id="titan-scoop-lid" fill="#322E2E" transform="translate(244.525862, 62.034783) rotate(-90.000000) translate(-244.525862, -62.034783) " points="182.491079 60.6985757 306.560645 60.6985757 306.560645 63.3709895 182.491079 63.3709895"></polygon>
+            <rect id="titan-scoop-bar" fill="#403939" x="4.27586207" y="81.2869565" width="119.724138" height="3.74347826"></rect>
+            <g id="Group" transform="translate(162.000000, 18.000000)">
+                <ellipse id="titan-circle" fill="#FF7145" cx="39.8103448" cy="44.8304348" rx="35.8103448" ry="35.8304348"></ellipse>
+                <rect id="titan-driver-cover" stroke="#463F3F" x="0.5" y="0.5" width="79.1724138" height="87.773913"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

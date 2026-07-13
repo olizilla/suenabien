@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="497px" height="553px" viewBox="0 0 497 553" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <defs>
+        <linearGradient x1="100%" y1="47.2348814%" x2="50%" y2="47.2348814%" id="linearGradient-1">
+            <stop stop-color="color(display-p3 0.295 0.253 0.247)" offset="0%"></stop>
+            <stop stop-color="color(display-p3 0.150 0.141 0.141)" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-2">
+            <stop stop-color="color(display-p3 0.874 0.403 0.258)" offset="0%"></stop>
+            <stop stop-color="color(display-p3 0.800 0.349 0.169)" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-3">
+            <stop stop-color="color(display-p3 0.874 0.403 0.258)" offset="0%"></stop>
+            <stop stop-color="color(display-p3 0.800 0.349 0.169)" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-4">
+            <stop stop-color="color(display-p3 0.949 0.671 0.227)" offset="0%"></stop>
+            <stop stop-color="color(display-p3 0.776 0.511 0.089)" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="43.8880626%" id="radialGradient-5">
+            <stop stop-color="color(display-p3 0.130 0.095 0.095)" offset="0%"></stop>
+            <stop stop-color="color(display-p3 0.237 0.227 0.227)" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="44.0551283%" gradientTransform="translate(0.5, 0.5), scale(1, 0.9962), rotate(90), translate(-0.5, -0.5)" id="radialGradient-6">
+            <stop stop-color="color(display-p3 0.130 0.095 0.095)" offset="0%"></stop>
+            <stop stop-color="color(display-p3 0.237 0.227 0.227)" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A4" transform="translate(-49, -250)">
+            <g id="Group" transform="translate(49, 250)">
+                <g id="titan" transform="translate(249, 371) rotate(-90) translate(-249, -371)translate(187, 248)">
+                    <g transform="translate(62.5, 123) rotate(-90) translate(-62.5, -123)translate(-60.5, 60.5)">
+                        <rect id="Rectangle" fill="color(display-p3 0.251 0.224 0.224)" x="0" y="0" width="245.862069" height="124.069565"></rect>
+                        <rect id="titan-scoop" fill="url(#linearGradient-1)" x="4.27586207" y="4.27826087" width="153.396552" height="115.513043"></rect>
+                        <rect id="titan-scoop-bar" fill="color(display-p3 0.251 0.224 0.224)" x="4.27586207" y="41.7130435" width="119.724138" height="3.74347826"></rect>
+                        <polygon id="titan-scoop-bar" fill="color(display-p3 0.251 0.224 0.224)" transform="translate(56.1207, 60.6978) rotate(-90) translate(-56.1207, -60.6978)" points="-3.77496252 58.8271364 116.016342 58.8271364 116.016342 62.5685157 -3.77496252 62.5685157"></polygon>
+                        <polygon id="titan-scoop-lid" fill="color(display-p3 0.197 0.182 0.182)" transform="translate(244.5259, 62.0348) rotate(-90) translate(-244.5259, -62.0348)" points="182.491079 60.6985757 306.560645 60.6985757 306.560645 63.3709895 182.491079 63.3709895"></polygon>
+                        <rect id="titan-scoop-bar" fill="color(display-p3 0.251 0.224 0.224)" x="4.27586207" y="81.2869565" width="119.724138" height="3.74347826"></rect>
+                        <g id="Group" transform="translate(162, 18)">
+                            <ellipse id="titan-circle" fill="color(display-p3 1.000 0.442 0.271)" cx="39.8103448" cy="44.8304348" rx="35.8103448" ry="35.8304348"></ellipse>
+                            <rect id="titan-driver-cover" stroke="color(display-p3 0.276 0.246 0.246)" x="0.5" y="0.5" width="79.1724138" height="87.773913"></rect>
+                        </g>
+                    </g>
+                </g>
+                <g id="titan" transform="translate(249, 247) scale(-1, 1) rotate(-90) translate(-249, -247)translate(187, 124)">
+                    <g transform="translate(62.5, 123) rotate(-90) translate(-62.5, -123)translate(-60.5, 60.5)">
+                        <rect id="Rectangle" fill="color(display-p3 0.251 0.224 0.224)" x="0" y="0" width="245.862069" height="124.069565"></rect>
+                        <rect id="titan-scoop" fill="url(#linearGradient-1)" x="4.27586207" y="4.27826087" width="153.396552" height="115.513043"></rect>
+                        <rect id="titan-scoop-bar" fill="color(display-p3 0.251 0.224 0.224)" x="4.27586207" y="41.7130435" width="119.724138" height="3.74347826"></rect>
+                        <polygon id="titan-scoop-bar" fill="color(display-p3 0.251 0.224 0.224)" transform="translate(56.1207, 60.6978) rotate(-90) translate(-56.1207, -60.6978)" points="-3.77496252 58.8271364 116.016342 58.8271364 116.016342 62.5685157 -3.77496252 62.5685157"></polygon>
+                        <polygon id="titan-scoop-lid" fill="color(display-p3 0.197 0.182 0.182)" transform="translate(244.5259, 62.0348) rotate(-90) translate(-244.5259, -62.0348)" points="182.491079 60.6985757 306.560645 60.6985757 306.560645 63.3709895 182.491079 63.3709895"></polygon>
+                        <rect id="titan-scoop-bar" fill="color(display-p3 0.251 0.224 0.224)" x="4.27586207" y="81.2869565" width="119.724138" height="3.74347826"></rect>
+                        <g id="Group" transform="translate(162, 18)">
+                            <ellipse id="titan-circle" fill="color(display-p3 1.000 0.442 0.271)" cx="39.8103448" cy="44.8304348" rx="35.8103448" ry="35.8304348"></ellipse>
+                            <rect id="titan-driver-cover" stroke="color(display-p3 0.276 0.246 0.246)" x="0.5" y="0.5" width="79.1724138" height="87.773913"></rect>
+                        </g>
+                    </g>
+                </g>
+                <g id="mid" transform="translate(434.3913, 288.5) rotate(-270) translate(-434.3913, -288.5)translate(331.8913, 226.1087)">
+                    <rect id="back" fill="color(display-p3 0.859 0.404 0.184)" x="0" y="0" width="204.710247" height="124.782609"></rect>
+                    <rect id="Rectangle" fill="color(display-p3 0.859 0.404 0.184)" x="0" y="0" width="205" height="2.46090992"></rect>
+                    <rect id="Rectangle" fill="color(display-p3 0.859 0.404 0.184)" x="0" y="122.176939" width="205" height="2.46090992"></rect>
+                    <g id="haunch" transform="translate(0, 2.4609)">
+                        <rect id="Rectangle" fill="color(display-p3 0.859 0.404 0.184)" x="0" y="0" width="54.3286219" height="119.860789"></rect>
+                        <rect id="flap" fill="color(display-p3 0.949 0.671 0.227)" x="11.590106" y="8.3960456" width="30.8586572" height="103.068698"></rect>
+                    </g>
+                    <g id="haunch" transform="translate(150.6714, 2.4609)">
+                        <rect id="Rectangle" fill="color(display-p3 0.859 0.404 0.184)" x="0" y="0" width="54.3286219" height="119.860789"></rect>
+                        <rect id="flap" fill="color(display-p3 0.949 0.671 0.227)" x="11.590106" y="8.3960456" width="30.8586572" height="103.068698"></rect>
+                    </g>
+                    <g id="driver" transform="translate(83.3039, 18.2397)">
+                        <ellipse id="Oval" fill="color(display-p3 0.162 0.152 0.152)" cx="19.1961131" cy="19.1806214" rx="19.1961131" ry="19.1806214"></ellipse>
+                        <ellipse id="Oval" fill="color(display-p3 0.124 0.112 0.112)" cx="19.2685512" cy="19.2530011" rx="6.66431095" ry="6.65893271"></ellipse>
+                    </g>
+                    <g id="driver" transform="translate(83.3039, 68.3264)">
+                        <ellipse id="Oval" fill="color(display-p3 0.162 0.152 0.152)" cx="19.1961131" cy="19.1806214" rx="19.1961131" ry="19.1806214"></ellipse>
+                        <ellipse id="Oval" fill="color(display-p3 0.122 0.110 0.110)" cx="19.2685512" cy="19.2530011" rx="6.66431095" ry="6.65893271"></ellipse>
+                    </g>
+                    <rect id="Rectangle" fill="url(#linearGradient-2)" x="54.3286219" y="2.46090992" width="36.9434629" height="119.716029"></rect>
+                    <rect id="Rectangle" fill="url(#linearGradient-2)" transform="translate(132.1996, 62.3189) scale(-1, 1) translate(-132.1996, -62.3189)" x="113.727915" y="2.46090992" width="36.9434629" height="119.716029"></rect>
+                    <polygon id="Rectangle" fill="color(display-p3 0.946 0.385 0.204)" transform="translate(102.5, 118.1237) scale(1, -1) translate(-102.5, -118.1237)" points="54.3286219 113.925653 150.671378 113.925653 113.727915 122.321699 91.2720848 122.321699"></polygon>
+                    <polygon id="Rectangle" fill="color(display-p3 0.739 0.332 0.170)" points="54.3286219 2.46090992 150.671378 2.46090992 113.727915 10.8569555 91.2720848 10.8569555"></polygon>
+                </g>
+                <g id="mid" transform="translate(63, 289) scale(-1, 1) rotate(-270) translate(-63, -289)translate(-40, 226)">
+                    <rect id="back" fill="color(display-p3 0.859 0.404 0.184)" x="0" y="0" width="205.708834" height="126"></rect>
+                    <rect id="Rectangle" fill="color(display-p3 0.859 0.404 0.184)" x="0" y="0" width="206" height="2.48491879"></rect>
+                    <rect id="Rectangle" fill="color(display-p3 0.859 0.404 0.184)" x="0" y="123.36891" width="206" height="2.48491879"></rect>
+                    <g id="haunch" transform="translate(0, 2.4849)">
+                        <rect id="Rectangle" fill="color(display-p3 0.859 0.404 0.184)" x="0" y="0" width="54.5936396" height="121.030162"></rect>
+                        <rect id="flap" fill="color(display-p3 0.949 0.671 0.227)" x="11.6466431" y="8.47795824" width="31.0091873" height="104.074246"></rect>
+                    </g>
+                    <g id="haunch" transform="translate(151.4064, 2.4849)">
+                        <rect id="Rectangle" fill="color(display-p3 0.859 0.404 0.184)" x="0" y="0" width="54.5936396" height="121.030162"></rect>
+                        <rect id="flap" fill="color(display-p3 0.949 0.671 0.227)" x="11.6466431" y="8.47795824" width="31.0091873" height="104.074246"></rect>
+                    </g>
+                    <g id="driver" transform="translate(83.7102, 18.4176)">
+                        <ellipse id="Oval" fill="color(display-p3 0.162 0.152 0.152)" cx="19.2897527" cy="19.3677494" rx="19.2897527" ry="19.3677494"></ellipse>
+                        <ellipse id="Oval" fill="color(display-p3 0.124 0.112 0.112)" cx="19.3625442" cy="19.4408353" rx="6.69681979" ry="6.72389791"></ellipse>
+                    </g>
+                    <g id="driver" transform="translate(83.7102, 68.993)">
+                        <ellipse id="Oval" fill="color(display-p3 0.162 0.152 0.152)" cx="19.2897527" cy="19.3677494" rx="19.2897527" ry="19.3677494"></ellipse>
+                        <ellipse id="Oval" fill="color(display-p3 0.122 0.110 0.110)" cx="19.3625442" cy="19.4408353" rx="6.69681979" ry="6.72389791"></ellipse>
+                    </g>
+                    <rect id="Rectangle" fill="url(#linearGradient-3)" x="54.5936396" y="2.48491879" width="37.1236749" height="120.883991"></rect>
+                    <rect id="Rectangle" fill="url(#linearGradient-3)" transform="translate(132.8445, 62.9269) scale(-1, 1) translate(-132.8445, -62.9269)" x="114.282686" y="2.48491879" width="37.1236749" height="120.883991"></rect>
+                    <polygon id="Rectangle" fill="color(display-p3 0.946 0.385 0.204)" transform="translate(103, 119.2761) scale(1, -1) translate(-103, -119.2761)" points="54.5936396 115.037123 151.40636 115.037123 114.282686 123.515081 91.7173145 123.515081"></polygon>
+                    <polygon id="Rectangle" fill="color(display-p3 0.739 0.332 0.170)" points="54.5936396 2.48491879 151.40636 2.48491879 114.282686 10.962877 91.7173145 10.962877"></polygon>
+                </g>
+                <g id="mid" transform="translate(37, 98)">
+                    <rect id="back" fill="color(display-p3 0.949 0.671 0.227)" x="0" y="0" width="205.708834" height="87.6409894"></rect>
+                    <g id="haunch" transform="translate(0, 1.747)">
+                        <rect id="Rectangle" fill="color(display-p3 0.949 0.671 0.227)" x="0" y="0" width="54.5936396" height="84.1469965"></rect>
+                        <rect id="flap" fill="color(display-p3 0.859 0.404 0.184)" x="11.6466431" y="5.96890459" width="31.0091873" height="72.3547703"></rect>
+                    </g>
+                    <g id="haunch" transform="translate(151.4064, 1.747)">
+                        <rect id="Rectangle" fill="color(display-p3 0.949 0.671 0.227)" x="0" y="0" width="54.5936396" height="84.1469965"></rect>
+                        <rect id="flap" fill="color(display-p3 0.859 0.404 0.184)" x="11.6466431" y="5.96890459" width="31.0091873" height="72.3547703"></rect>
+                    </g>
+                    <g id="driver" transform="translate(83.7102, 24.6035)">
+                        <circle id="Oval" fill="color(display-p3 0.162 0.152 0.152)" cx="19.2897527" cy="19.2897527" r="19.2897527"></circle>
+                        <circle id="Oval" fill="color(display-p3 0.124 0.112 0.112)" cx="19.3625442" cy="19.3625442" r="6.69681979"></circle>
+                    </g>
+                    <rect id="Rectangle" fill="url(#linearGradient-4)" x="54.5936396" y="1.74699647" width="37.1236749" height="84.0014134"></rect>
+                    <rect id="Rectangle" fill="url(#linearGradient-4)" transform="translate(132.8445, 43.7477) scale(-1, 1) translate(-132.8445, -43.7477)" x="114.282686" y="1.74699647" width="37.1236749" height="84.0014134"></rect>
+                    <g id="bot" transform="translate(0, 76.8678)">
+                        <rect id="botbar" fill="color(display-p3 0.949 0.671 0.227)" x="0" y="8.29823322" width="206" height="2.47491166"></rect>
+                        <polygon id="Rectangle" fill="color(display-p3 0.871 0.631 0.249)" transform="translate(103, 4.2219) scale(1, -1) translate(-103, -4.2219)" points="54.5936396 0 151.40636 0 114.282686 8.44381625 91.7173145 8.44381625"></polygon>
+                    </g>
+                    <g id="top">
+                        <polygon id="Rectangle" fill="color(display-p3 0.863 0.556 0.068)" points="54.5936396 2.47491166 151.40636 2.47491166 114.282686 10.9187279 91.7173145 10.9187279"></polygon>
+                        <rect id="topbar" fill="color(display-p3 0.949 0.671 0.227)" x="0" y="0" width="206" height="2.47491166"></rect>
+                    </g>
+                </g>
+                <g id="mid" transform="translate(243, 98)">
+                    <rect id="back" fill="color(display-p3 0.949 0.671 0.227)" x="0" y="0" width="205.708834" height="87.6409894"></rect>
+                    <g id="haunch" transform="translate(0, 1.747)">
+                        <rect id="Rectangle" fill="color(display-p3 0.949 0.671 0.227)" x="0" y="0" width="54.5936396" height="84.1469965"></rect>
+                        <rect id="flap" fill="color(display-p3 0.859 0.404 0.184)" x="11.6466431" y="5.96890459" width="31.0091873" height="72.3547703"></rect>
+                    </g>
+                    <g id="haunch" transform="translate(151.4064, 1.747)">
+                        <rect id="Rectangle" fill="color(display-p3 0.949 0.671 0.227)" x="0" y="0" width="54.5936396" height="84.1469965"></rect>
+                        <rect id="flap" fill="color(display-p3 0.859 0.404 0.184)" x="11.6466431" y="5.96890459" width="31.0091873" height="72.3547703"></rect>
+                    </g>
+                    <g id="driver" transform="translate(83.7102, 24.6035)">
+                        <circle id="Oval" fill="color(display-p3 0.162 0.152 0.152)" cx="19.2897527" cy="19.2897527" r="19.2897527"></circle>
+                        <circle id="Oval" fill="color(display-p3 0.124 0.112 0.112)" cx="19.3625442" cy="19.3625442" r="6.69681979"></circle>
+                    </g>
+                    <rect id="Rectangle" fill="url(#linearGradient-4)" x="54.5936396" y="1.74699647" width="37.1236749" height="84.0014134"></rect>
+                    <rect id="Rectangle" fill="url(#linearGradient-4)" transform="translate(132.8445, 43.7477) scale(-1, 1) translate(-132.8445, -43.7477)" x="114.282686" y="1.74699647" width="37.1236749" height="84.0014134"></rect>
+                    <g id="bot" transform="translate(0, 76.8678)">
+                        <rect id="botbar" fill="color(display-p3 0.949 0.671 0.227)" x="0" y="8.29823322" width="206" height="2.47491166"></rect>
+                        <polygon id="Rectangle" fill="color(display-p3 0.871 0.631 0.249)" transform="translate(103, 4.2219) scale(1, -1) translate(-103, -4.2219)" points="54.5936396 0 151.40636 0 114.282686 8.44381625 91.7173145 8.44381625"></polygon>
+                    </g>
+                    <g id="top">
+                        <polygon id="Rectangle" fill="color(display-p3 0.863 0.556 0.068)" points="54.5936396 2.47491166 151.40636 2.47491166 114.282686 10.9187279 91.7173145 10.9187279"></polygon>
+                        <rect id="topbar" fill="color(display-p3 0.949 0.671 0.227)" x="0" y="0" width="206" height="2.47491166"></rect>
+                    </g>
+                </g>
+                <g id="sub" transform="translate(84, 433)">
+                    <rect id="back" fill="color(display-p3 0.804 0.376 0.173)" x="0" y="0" width="325.876777" height="120"></rect>
+                    <rect id="back-inner" fill="color(display-p3 0.867 0.597 0.166)" x="4.54976303" y="4.54976303" width="316.777251" height="110.900474"></rect>
+                    <rect id="inner-side" fill="color(display-p3 0.949 0.671 0.227)" x="4.54976303" y="4.54976303" width="26.1611374" height="110.900474"></rect>
+                    <rect id="inner-side" fill="color(display-p3 0.949 0.671 0.227)" x="89.8578199" y="4.54976303" width="26.1611374" height="110.900474"></rect>
+                    <rect id="inner-side" fill="color(display-p3 0.949 0.671 0.227)" x="209.2891" y="4.54976303" width="26.1611374" height="110.900474"></rect>
+                    <rect id="inner-side" fill="color(display-p3 0.949 0.671 0.227)" x="294.597156" y="4.54976303" width="26.1611374" height="110.900474"></rect>
+                    <rect id="middle" stroke="color(display-p3 0.804 0.376 0.173)" stroke-width="8" fill="color(display-p3 0.804 0.376 0.173)" x="117.744076" y="4" width="90.3886256" height="112"></rect>
+                    <rect id="middle" fill="color(display-p3 0.859 0.404 0.184)" x="119.43128" y="4.54976303" width="88.1516588" height="110.900474"></rect>
+                    <g id="brace" transform="translate(7.3934, 42.654)">
+                        <rect id="Rectangle" fill="color(display-p3 0.969 0.710 0.000)" x="1.29312043e-13" y="14.2180095" width="101.232227" height="3.98104265"></rect>
+                        <polygon id="shad" fill="color(display-p3 0.802 0.604 0.060)" points="23.132035 1.29312043e-13 78.1001925 1.29312043e-13 101.232227 14.2180095 1.29312043e-13 14.2180095"></polygon>
+                        <line x1="27.014218" y1="8.81516588" x2="44.6445498" y2="8.81516588" id="handle" stroke="color(display-p3 0.969 0.710 0.000)" stroke-width="3" stroke-linecap="round"></line>
+                    </g>
+                    <g id="brace" transform="translate(217.2512, 42.654)">
+                        <rect id="Rectangle" fill="color(display-p3 0.969 0.710 0.000)" x="0" y="14.2180095" width="101.232227" height="3.98104265"></rect>
+                        <polygon id="shad" fill="color(display-p3 0.802 0.604 0.060)" points="23.132035 1.29312043e-13 78.1001925 1.29312043e-13 101.232227 14.2180095 0 14.2180095"></polygon>
+                        <line x1="56.0189573" y1="8.81516588" x2="73.6492891" y2="8.81516588" id="handle" stroke="color(display-p3 0.969 0.710 0.000)" stroke-width="3" stroke-linecap="round"></line>
+                    </g>
+                    <polygon id="inner-base" fill="color(display-p3 0.802 0.604 0.060)" points="237.39292 97.2511848 296.066796 97.2511848 320.758294 115.450237 212.701422 115.450237"></polygon>
+                    <polygon id="inner-base" fill="color(display-p3 0.802 0.604 0.060)" points="30.9474222 97.2511848 89.6212982 97.2511848 114.312796 115.450237 6.25592417 115.450237"></polygon>
+                </g>
+                <g id="tweet" transform="translate(144, 0)">
+                    <rect id="base" fill="color(display-p3 0.949 0.671 0.227)" x="18.125" y="94.375" width="76.875" height="4.375"></rect>
+                    <rect id="post" fill="color(display-p3 0.283 0.164 0.102)" x="43.125" y="46.875" width="11.25" height="47.5"></rect>
+                    <circle id="Oval" fill="color(display-p3 0.533 0.486 0.361)" opacity="0.466657366" cx="45.9375" cy="45.9375" r="45.9375"></circle>
+                    <circle id="Oval" fill="color(display-p3 0.596 0.592 0.592)" opacity="0.515997024" cx="46.25" cy="46.25" r="15.625"></circle>
+                    <path d="M43.75,33.75 L48.75,33.75 C54.2728475,33.75 58.75,38.2271525 58.75,43.75 L58.75,48.75 C58.75,54.2728475 54.2728475,58.75 48.75,58.75 L43.75,58.75 C38.2271525,58.75 33.75,54.2728475 33.75,48.75 L33.75,43.75 C33.75,38.2271525 38.2271525,33.75 43.75,33.75 Z" id="Rectangle" fill="url(#radialGradient-5)" transform="translate(46.25, 46.25) rotate(-60) translate(-46.25, -46.25)"></path>
+                    <circle id="Oval" fill="color(display-p3 0.157 0.157 0.157)" cx="46.25" cy="46.25" r="2.5"></circle>
+                </g>
+                <g id="tweet" transform="translate(84.5, 49) scale(-1, 1) translate(-84.5, -49)translate(37, 0)">
+                    <rect id="base" fill="color(display-p3 0.949 0.671 0.227)" x="18.125" y="93.6582278" width="76.875" height="4.34177215"></rect>
+                    <rect id="post" fill="color(display-p3 0.283 0.164 0.102)" x="43.125" y="46.5189873" width="11.25" height="47.1392405"></rect>
+                    <ellipse id="Oval" fill="color(display-p3 0.533 0.486 0.361)" opacity="0.466657366" cx="45.9375" cy="45.5886076" rx="45.9375" ry="45.5886076"></ellipse>
+                    <ellipse id="Oval" fill="color(display-p3 0.596 0.592 0.592)" opacity="0.515997024" cx="46.25" cy="45.8987342" rx="15.625" ry="15.5063291"></ellipse>
+                    <path d="M43.8462824,33.4146539 L48.7035508,33.4307196 C54.2006015,33.4489013 58.6523087,37.9006645 58.6704213,43.3977154 L58.6867386,48.3499197 C58.7050211,53.898539 54.2023367,58.4011667 48.6537176,58.3828144 L43.7964492,58.3667488 C38.2993985,58.3485671 33.8476913,53.8968039 33.8295787,48.3997529 L33.8132614,43.4475486 C33.7949789,37.8989293 38.2976633,33.3963016 43.8462824,33.4146539 Z" id="Rectangle" fill="url(#radialGradient-6)" transform="translate(46.25, 45.8987) rotate(-60) translate(-46.25, -45.8987)"></path>
+                    <ellipse id="Oval" fill="color(display-p3 0.157 0.157 0.157)" cx="46.25" cy="45.8987342" rx="2.5" ry="2.48101266"></ellipse>
+                </g>
+                <g id="tweet" transform="translate(354, 0)">
+                    <rect id="base" fill="color(display-p3 0.949 0.671 0.227)" x="18.125" y="94.375" width="76.875" height="4.375"></rect>
+                    <rect id="post" fill="color(display-p3 0.283 0.164 0.102)" x="43.125" y="46.875" width="11.25" height="47.5"></rect>
+                    <circle id="Oval" fill="color(display-p3 0.533 0.486 0.361)" opacity="0.466657366" cx="45.9375" cy="45.9375" r="45.9375"></circle>
+                    <circle id="Oval" fill="color(display-p3 0.596 0.592 0.592)" opacity="0.515997024" cx="46.25" cy="46.25" r="15.625"></circle>
+                    <path d="M43.75,33.75 L48.75,33.75 C54.2728475,33.75 58.75,38.2271525 58.75,43.75 L58.75,48.75 C58.75,54.2728475 54.2728475,58.75 48.75,58.75 L43.75,58.75 C38.2271525,58.75 33.75,54.2728475 33.75,48.75 L33.75,43.75 C33.75,38.2271525 38.2271525,33.75 43.75,33.75 Z" id="Rectangle" fill="url(#radialGradient-5)" transform="translate(46.25, 46.25) rotate(-60) translate(-46.25, -46.25)"></path>
+                    <circle id="Oval" fill="color(display-p3 0.157 0.157 0.157)" cx="46.25" cy="46.25" r="2.5"></circle>
+                </g>
+                <g id="tweet" transform="translate(294.5, 49) scale(-1, 1) translate(-294.5, -49)translate(247, 0)">
+                    <rect id="base" fill="color(display-p3 0.949 0.671 0.227)" x="18.125" y="93.6582278" width="76.875" height="4.34177215"></rect>
+                    <rect id="post" fill="color(display-p3 0.283 0.164 0.102)" x="43.125" y="46.5189873" width="11.25" height="47.1392405"></rect>
+                    <ellipse id="Oval" fill="color(display-p3 0.533 0.486 0.361)" opacity="0.466657366" cx="45.9375" cy="45.5886076" rx="45.9375" ry="45.5886076"></ellipse>
+                    <ellipse id="Oval" fill="color(display-p3 0.596 0.592 0.592)" opacity="0.515997024" cx="46.25" cy="45.8987342" rx="15.625" ry="15.5063291"></ellipse>
+                    <path d="M43.8462824,33.4146539 L48.7035508,33.4307196 C54.2006015,33.4489013 58.6523087,37.9006645 58.6704213,43.3977154 L58.6867386,48.3499197 C58.7050211,53.898539 54.2023367,58.4011667 48.6537176,58.3828144 L43.7964492,58.3667488 C38.2993985,58.3485671 33.8476913,53.8968039 33.8295787,48.3997529 L33.8132614,43.4475486 C33.7949789,37.8989293 38.2976633,33.3963016 43.8462824,33.4146539 Z" id="Rectangle" fill="url(#radialGradient-6)" transform="translate(46.25, 45.8987) rotate(-60) translate(-46.25, -45.8987)"></path>
+                    <ellipse id="Oval" fill="color(display-p3 0.157 0.157 0.157)" cx="46.25" cy="45.8987342" rx="2.5" ry="2.48101266"></ellipse>
+                </g>
+                <rect id="Rectangle" stroke="color(display-p3 0.251 0.224 0.224)" stroke-width="4" fill="color(display-p3 0.153 0.141 0.141)" x="49" y="393" width="75" height="38"></rect>
+                <g id="shim" transform="translate(372, 391)" fill="color(display-p3 0.153 0.141 0.141)" stroke="color(display-p3 0.251 0.224 0.224)" stroke-width="4">
+                    <rect id="Rectangle" x="2" y="2" width="75" height="38"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

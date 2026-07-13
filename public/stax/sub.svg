@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="326px" height="120px" viewBox="0 0 326 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>sub</title>
+    <desc>Created with Sketch.</desc>
+    <g id="sub" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.918945312">
+        <g>
+            <rect id="back" fill="#CD602C" x="0" y="0" width="326" height="120"></rect>
+            <rect id="back-inner" fill="#DD982A" x="4.55148342" y="4.54976303" width="316.897033" height="110.900474"></rect>
+            <rect id="inner-side" fill="#F2AB3A" x="4.55148342" y="4.54976303" width="26.1710297" height="110.900474"></rect>
+            <rect id="inner-side" fill="#F2AB3A" x="89.8917976" y="4.54976303" width="26.1710297" height="110.900474"></rect>
+            <rect id="inner-side" fill="#F2AB3A" x="209.368237" y="4.54976303" width="26.1710297" height="110.900474"></rect>
+            <rect id="inner-side" fill="#F2AB3A" x="294.708551" y="4.54976303" width="26.1710297" height="110.900474"></rect>
+            <rect id="middle" stroke="#CD602C" stroke-width="8" fill="#CD602C" x="117.787086" y="4" width="90.425829" height="112"></rect>
+            <rect id="middle" fill="#DB672F" x="119.47644" y="4.54976303" width="88.1849913" height="110.900474"></rect>
+            <g id="brace" transform="translate(7.396161, 42.654028)">
+                <rect id="Rectangle" fill="#F7B500" x="1.29360939e-13" y="14.2180095" width="101.270506" height="3.98104265"></rect>
+                <polygon id="shad" fill="#CC9A0F" points="23.1407818 1.29312043e-13 78.1297243 1.29312043e-13 101.270506 14.2180095 1.29360939e-13 14.2180095"></polygon>
+                <line x1="27.0244328" y1="8.81516588" x2="44.6614311" y2="8.81516588" id="handle" stroke="#F7B500" stroke-width="3" stroke-linecap="round"></line>
+            </g>
+            <g id="brace" transform="translate(217.333333, 42.654028)">
+                <rect id="Rectangle" fill="#F7B500" x="0" y="14.2180095" width="101.270506" height="3.98104265"></rect>
+                <polygon id="shad" fill="#CC9A0F" points="23.1407818 1.29312043e-13 78.1297243 1.29312043e-13 101.270506 14.2180095 0 14.2180095"></polygon>
+                <line x1="56.0401396" y1="8.81516588" x2="73.6771379" y2="8.81516588" id="handle" stroke="#F7B500" stroke-width="3" stroke-linecap="round"></line>
+            </g>
+            <polygon id="inner-base" fill="#CC9A0F" points="237.482684 97.2511848 296.178747 97.2511848 320.879581 115.450237 212.78185 115.450237"></polygon>
+            <polygon id="inner-base" fill="#CC9A0F" points="30.9591242 97.2511848 89.6551864 97.2511848 114.356021 115.450237 6.2582897 115.450237"></polygon>
+        </g>
+    </g>
+</svg>

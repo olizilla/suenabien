@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+@theme inline {
+  --font-inter: var(--font-inter);
+}
+
 a {
   @apply text-blue-500 hover:underline;
 }

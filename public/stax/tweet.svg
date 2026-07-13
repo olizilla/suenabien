@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="95px" height="98px" viewBox="0 0 95 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>tweet</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="44.0551283%" gradientTransform="translate(0.500000,0.500000),scale(1.000000,0.996208),rotate(90.000000),translate(-0.500000,-0.500000)" id="radialGradient-1">
+            <stop stop-color="#211818" offset="0%"></stop>
+            <stop stop-color="#3C3A3A" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="tweet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <rect id="base" fill="#F2AB3A" x="18.125" y="93.6582278" width="76.875" height="4.34177215"></rect>
+            <rect id="post" fill="#482A1A" x="43.125" y="46.5189873" width="11.25" height="47.1392405"></rect>
+            <ellipse id="Oval" fill="#887C5C" opacity="0.466657366" cx="45.9375" cy="45.5886076" rx="45.9375" ry="45.5886076"></ellipse>
+            <ellipse id="Oval" fill="#989797" opacity="0.515997024" cx="46.25" cy="45.8987342" rx="15.625" ry="15.5063291"></ellipse>
+            <path d="M43.8462824,33.4146539 L48.7035508,33.4307196 C54.2006015,33.4489013 58.6523087,37.9006645 58.6704213,43.3977154 L58.6867386,48.3499197 C58.704936,53.8727372 54.2425598,58.3646174 48.7197423,58.3828148 C48.6977341,58.3828874 48.6757258,58.3828872 48.6537176,58.3828144 L43.7964492,58.3667488 C38.2993985,58.3485671 33.8476913,53.8968039 33.8295787,48.3997529 L33.8132614,43.4475486 C33.795064,37.9247311 38.2574402,33.432851 43.7802577,33.4146535 C43.8022659,33.414581 43.8242742,33.4145811 43.8462824,33.4146539 Z" id="Rectangle" fill="url(#radialGradient-1)" transform="translate(46.250000, 45.898734) rotate(-60.000000) translate(-46.250000, -45.898734) "></path>
+            <ellipse id="Oval" fill="#282828" cx="46.25" cy="45.8987342" rx="2.5" ry="2.48101266"></ellipse>
+        </g>
+    </g>
+</svg>

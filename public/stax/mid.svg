@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="206px" height="88px" viewBox="0 0 206 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>mid</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#F2AB3A" offset="0%"></stop>
+            <stop stop-color="#C68217" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="mid" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <rect id="back" fill="#F2AB3A" x="0" y="0" width="205.708834" height="88"></rect>
+            <g id="haunch" transform="translate(0.000000, 1.754153)">
+                <rect id="Rectangle" fill="#F2AB3A" x="0" y="0" width="54.5936396" height="84.4916944"></rect>
+                <rect id="flap" fill="#DB672F" x="11.6466431" y="5.99335548" width="31.0091873" height="72.6511628"></rect>
+            </g>
+            <g id="haunch" transform="translate(151.406360, 1.754153)">
+                <rect id="Rectangle" fill="#F2AB3A" x="0" y="0" width="54.5936396" height="84.4916944"></rect>
+                <rect id="flap" fill="#DB672F" x="11.6466431" y="5.99335548" width="31.0091873" height="72.6511628"></rect>
+            </g>
+            <g id="driver" transform="translate(83.710247, 24.704319)">
+                <ellipse id="Oval" fill="#292727" cx="19.2897527" cy="19.3687708" rx="19.2897527" ry="19.3687708"></ellipse>
+                <ellipse id="Oval" fill="#1F1C1C" cx="19.3625442" cy="19.4418605" rx="6.69681979" ry="6.72425249"></ellipse>
+            </g>
+            <rect id="Rectangle" fill="url(#linearGradient-1)" x="54.5936396" y="1.75415282" width="37.1236749" height="84.345515"></rect>
+            <rect id="Rectangle" fill="url(#linearGradient-1)" transform="translate(132.844523, 43.926910) scale(-1, 1) translate(-132.844523, -43.926910) " x="114.282686" y="1.75415282" width="37.1236749" height="84.345515"></rect>
+            <g id="bot" transform="translate(0.000000, 77.182724)">
+                <rect id="botbar" fill="#F2AB3A" x="0" y="8.33222591" width="206" height="2.48504983"></rect>
+                <polygon id="Rectangle" fill="#DEA140" transform="translate(103.000000, 4.239203) scale(1, -1) translate(-103.000000, -4.239203) " points="54.5936396 0 151.40636 0 114.282686 8.47840532 91.7173145 8.47840532"></polygon>
+            </g>
+            <g id="top">
+                <polygon id="Rectangle" fill="#DC8E11" points="54.5936396 2.48504983 151.40636 2.48504983 114.282686 10.9634551 91.7173145 10.9634551"></polygon>
+                <rect id="topbar" fill="#F2AB3A" x="0" y="0" width="206" height="2.48504983"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
