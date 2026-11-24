@@ -1,9 +1,16 @@
 ---
 import'../base.css';
-const title = "Suena Bien Soundsystem"
-const desc = "Making speakers. Playing music. Partying together."
-const url = "https://suenabien.co"
-const img = `${url}/suenabien.png`
+// Pages can set their own title and description. `path` is the page's URL path, for the canonical link.
+// `noindex` keeps a page out of search engines: for unlinked pages, like the build sheets.
+const {
+  title = "Suena Bien Soundsystem",
+  desc = "Making speakers. Playing music. Partying together.",
+  path = "",
+  noindex = false,
+} = Astro.props
+const site = "https://suenabien.co"
+const url = `${site}${path}`
+const img = `${site}/suenabien.png`
 const alt = "Round red sticker that says Suena Bien in dancing letters"
 const col = "#FF7145"
 ---
@@ -15,9 +22,10 @@ const col = "#FF7145"
 		<link rel="icon" href="/suenabien.png">
 		<title>{title}</title>
     <meta name="description" content={desc} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
     <link rel="canonical" href={url} />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content={title} />
+    <meta property="og:site_name" content="Suena Bien Soundsystem" />
     <meta property="og:url" content={url} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={desc} />
