@@ -1,8 +1,13 @@
 {
  "generated_by": "suena-bien-boxes/tools/piramide-80-build.py: edit there, not here",
- "version": 3,
- "date": "24 Nov 2026",
+ "version": 4,
+ "date": "27 Nov 2026",
  "versions": [
+  {
+   "version": 4,
+   "date": "27 Nov 2026",
+   "note": "15 mm birch shell; front set back 35 mm, no grille; box 85 cm deep to keep the air and tuning; back on cleats, removable on the prototype; driver screwed, not bolted; ring braces at 25 and 49 cm for the handles; build tips from BFM's Celestion plan; bracing notes: grain direction, a gap at the spine ends, sealed handle cups, and knock and sweep tests on the prototype"
+  },
   {
    "version": 3,
    "date": "24 Nov 2026",
@@ -20,11 +25,11 @@
   }
  ],
  "summary": [
-  "61 x 61 cm face, 80 cm deep: the Titans' grid",
-  "12 mm birch shell, 15 mm birch front",
+  "61 x 61 cm face, 85 cm deep: the Titans' grid",
+  "15 mm birch shell; 15 mm front set back 35 mm, with no grille; 12 mm back on cleats",
   "Celestion TSQ1845 (8 ohm), tuned about 25 Hz",
   "two triangular ducts behind stepped mouths on one diagonal",
-  "about 43 kg with the driver: a two-person lift"
+  "about 49 kg with the driver: a two-person lift"
  ],
  "legend": [
   {
@@ -58,22 +63,26 @@
    "title": "Front",
    "scale": "1:6",
    "wcm": 77.0,
-   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 462 474\" role=\"img\" aria-label=\"Front\"><rect x=\"48.0\" y=\"54.0\" width=\"366.0\" height=\"366.0\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"2.4\"/><polygon points=\"55.2,61.2 142.9,61.2 142.9,90.4 113.6,90.4 113.6,119.6 84.4,119.6 84.4,148.9 55.2,148.9\" fill=\"#1F1C1C\"/><line x1=\"182.3\" y1=\"61.2\" x2=\"55.2\" y2=\"188.3\" stroke=\"#5A4A3A\" stroke-width=\"1.5\" stroke-dasharray=\"6,4\"/><polygon points=\"406.8,412.8 319.1,412.8 319.1,383.6 348.4,383.6 348.4,354.4 377.6,354.4 377.6,325.1 406.8,325.1\" fill=\"#1F1C1C\"/><line x1=\"279.7\" y1=\"412.8\" x2=\"406.8\" y2=\"285.7\" stroke=\"#5A4A3A\" stroke-width=\"1.5\" stroke-dasharray=\"6,4\"/><circle cx=\"231.0\" cy=\"237.0\" r=\"138.0\" fill=\"#1F1C1C\"/><circle cx=\"231.0\" cy=\"237.0\" r=\"116.4\" fill=\"none\" stroke=\"#4A4544\" stroke-width=\"2.4\"/><line x1=\"30.0\" y1=\"36.0\" x2=\"432.0\" y2=\"438.0\" stroke=\"#D7263D\" stroke-width=\"2.7\" stroke-dasharray=\"14,8\"/><text x=\"20.4\" y=\"33.6\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"19.2\" fill=\"#D7263D\" text-anchor=\"middle\">C</text><text x=\"441.6\" y=\"456.0\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"19.2\" fill=\"#D7263D\" text-anchor=\"middle\">C</text><line x1=\"231.0\" y1=\"30.0\" x2=\"231.0\" y2=\"444.0\" stroke=\"#D7263D\" stroke-width=\"2.7\" stroke-dasharray=\"14,8\"/><text x=\"231.0\" y=\"21.0\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"19.2\" fill=\"#D7263D\" text-anchor=\"middle\">S</text><circle cx=\"84.4\" cy=\"90.4\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"84.4\" y=\"96.4\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">1</text><circle cx=\"118.7\" cy=\"124.7\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"118.7\" y=\"130.7\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">2</text><circle cx=\"327.0\" cy=\"141.0\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"327.0\" y=\"147.0\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">3</text><circle cx=\"231.0\" cy=\"402.0\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"231.0\" y=\"408.0\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">4</text></svg>",
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 462 474\" role=\"img\" aria-label=\"Front\"><rect x=\"48.0\" y=\"54.0\" width=\"366.0\" height=\"366.0\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"2.4\"/><rect x=\"57.0\" y=\"63.0\" width=\"348.0\" height=\"348.0\" fill=\"#D8C095\" stroke=\"#A88A5C\" stroke-width=\"1.5\"/><polygon points=\"57.0,63.0 145.0,63.0 145.0,92.3 115.7,92.3 115.7,121.7 86.3,121.7 86.3,151.0 57.0,151.0\" fill=\"#1F1C1C\"/><line x1=\"184.5\" y1=\"63.0\" x2=\"57.0\" y2=\"190.5\" stroke=\"#5A4A3A\" stroke-width=\"1.5\" stroke-dasharray=\"6,4\"/><polygon points=\"405.0,411.0 317.0,411.0 317.0,381.7 346.3,381.7 346.3,352.3 375.7,352.3 375.7,323.0 405.0,323.0\" fill=\"#1F1C1C\"/><line x1=\"277.5\" y1=\"411.0\" x2=\"405.0\" y2=\"283.5\" stroke=\"#5A4A3A\" stroke-width=\"1.5\" stroke-dasharray=\"6,4\"/><circle cx=\"231.0\" cy=\"237.0\" r=\"138.0\" fill=\"#1F1C1C\"/><circle cx=\"231.0\" cy=\"237.0\" r=\"116.4\" fill=\"none\" stroke=\"#4A4544\" stroke-width=\"2.4\"/><line x1=\"30.0\" y1=\"36.0\" x2=\"432.0\" y2=\"438.0\" stroke=\"#D7263D\" stroke-width=\"2.7\" stroke-dasharray=\"14,8\"/><text x=\"20.4\" y=\"33.6\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"19.2\" fill=\"#D7263D\" text-anchor=\"middle\">C</text><text x=\"441.6\" y=\"456.0\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"19.2\" fill=\"#D7263D\" text-anchor=\"middle\">C</text><line x1=\"231.0\" y1=\"30.0\" x2=\"231.0\" y2=\"444.0\" stroke=\"#D7263D\" stroke-width=\"2.7\" stroke-dasharray=\"14,8\"/><text x=\"231.0\" y=\"21.0\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"19.2\" fill=\"#D7263D\" text-anchor=\"middle\">S</text><circle cx=\"86.3\" cy=\"92.3\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"86.3\" y=\"98.3\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">1</text><circle cx=\"120.8\" cy=\"126.8\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"120.8\" y=\"132.8\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">2</text><circle cx=\"327.0\" cy=\"141.0\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"327.0\" y=\"147.0\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">3</text><circle cx=\"52.5\" cy=\"237.0\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"52.5\" y=\"243.0\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">4</text><circle cx=\"231.0\" cy=\"402.0\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"231.0\" y=\"408.0\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">5</text></svg>",
    "notes": [
     {
      "n": 1,
-     "text": "stepped mouth: three steps of 4.9 cm, cut in the 15 mm front (142 cm2 each): see the mouth detail"
+     "text": "stepped mouth: three steps of 4.9 cm, cut in the 15 mm front (143 cm2 each): see the mouth detail"
     },
     {
      "n": 2,
-     "text": "dashed: the diagonal panel behind, legs 19.5 cm on the air side; it just touches the middle step"
+     "text": "dashed: the diagonal panel behind, legs 19.6 cm on the air side; it just touches the middle step"
     },
     {
      "n": 3,
-     "text": "Celestion TSQ1845, centred: 415 mm cut-out, 460 mm frame; 4.7 cm of wood from the frame to the nearest mouth corner, 5.7 cm from the bolt slots"
+     "text": "Celestion TSQ1845, centred: 415 mm cut-out, 460 mm frame; 4.2 cm of wood from the frame to the nearest mouth corner, 5.2 cm from the screw slots"
     },
     {
      "n": 4,
+     "text": "the 15 mm walls' front edges: the front panel sits 35 mm back inside them, with no grille"
+    },
+    {
+     "n": 5,
      "text": "S-S and C-C: where the section views cut"
     },
     {
@@ -86,8 +95,8 @@
    "id": "mouth",
    "title": "One port mouth at twice the scale, from the front, front panel see-through",
    "scale": "1:3",
-   "wcm": 85.4,
-   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 311\" role=\"img\" aria-label=\"One port mouth at twice the scale, from the front, front panel see-through\"><polygon points=\"12.0,12.0 298.5,12.0 298.5,26.4 26.4,26.4 26.4,298.5 12.0,298.5\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><polygon points=\"260.2,26.4 280.5,26.4 26.4,280.5 26.4,260.2\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><polygon points=\"201.7,26.4 260.2,26.4 201.7,84.8\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><polygon points=\"143.3,84.8 201.7,84.8 143.3,143.3\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><polygon points=\"84.8,143.3 143.3,143.3 84.8,201.7\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><polygon points=\"26.4,201.7 84.8,201.7 26.4,260.2\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><path d=\"M 26.4 26.4 L 201.7 26.4 L 201.7 84.8 L 143.3 84.8 Q 143.3 84.8 143.3 84.8 L 143.3 143.3 L 84.8 143.3 Q 84.8 143.3 84.8 143.3 L 84.8 201.7 L 26.4 201.7 Z\" fill=\"none\" stroke=\"#1F1C1C\" stroke-width=\"2.4\"/><polygon points=\"356.1,266.1 356.1,207.7 362.1,207.9 368.1,208.7 374.1,209.9 380.1,211.6 386.1,213.7 392.1,216.2 398.1,219.1 404.1,222.3 410.1,225.7 416.1,229.3 422.1,233.1 428.1,236.9 434.1,240.7 440.1,244.5 446.1,248.1 452.1,251.5 458.1,254.7 464.1,257.6 470.1,260.1 476.1,262.2 482.1,263.9 488.1,265.1 494.1,265.9 500.1,266.1\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><line x1=\"356.1\" y1=\"198.7\" x2=\"356.1\" y2=\"275.1\" stroke=\"#2B201C\" stroke-width=\"1.2\"/><text x=\"352.5\" y=\"192.7\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"12.0\" fill=\"#2B201C\" text-anchor=\"start\">FRONT</text><text x=\"428.1\" y=\"293.1\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"400\" font-size=\"13.2\" fill=\"#2B201C\" text-anchor=\"middle\">a wedge from the side</text><circle cx=\"55.6\" cy=\"55.6\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"55.6\" y=\"61.6\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">1</text><circle cx=\"143.3\" cy=\"84.8\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"143.3\" y=\"90.8\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">2</text><circle cx=\"160.8\" cy=\"119.9\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"160.8\" y=\"125.9\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">3</text><circle cx=\"84.8\" cy=\"132.7\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"84.8\" y=\"138.7\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">4</text><circle cx=\"399.3\" cy=\"254.4\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"399.3\" y=\"260.4\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">5</text></svg>",
+   "wcm": 85.5,
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 513 315\" role=\"img\" aria-label=\"One port mouth at twice the scale, from the front, front panel see-through\"><polygon points=\"12.0,12.0 303.1,12.0 303.1,30.0 30.0,30.0 30.0,303.1 12.0,303.1\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><polygon points=\"264.7,30.0 285.1,30.0 30.0,285.1 30.0,264.7\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><polygon points=\"206.0,30.0 264.7,30.0 206.0,88.7\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><polygon points=\"147.4,88.7 206.0,88.7 147.4,147.4\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><polygon points=\"88.7,147.4 147.4,147.4 88.7,206.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><polygon points=\"30.0,206.0 88.7,206.0 30.0,264.7\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><path d=\"M 30.0 30.0 L 206.0 30.0 L 206.0 88.7 L 147.4 88.7 Q 147.4 88.7 147.4 88.7 L 147.4 147.4 L 88.7 147.4 Q 88.7 147.4 88.7 147.4 L 88.7 206.0 L 30.0 206.0 Z\" fill=\"none\" stroke=\"#1F1C1C\" stroke-width=\"2.4\"/><polygon points=\"357.1,267.1 357.1,208.4 363.1,208.7 369.1,209.4 375.1,210.6 381.1,212.3 387.1,214.5 393.1,217.0 399.1,219.9 405.1,223.1 411.1,226.5 417.1,230.2 423.1,233.9 429.1,237.7 435.1,241.6 441.1,245.3 447.1,249.0 453.1,252.4 459.1,255.6 465.1,258.5 471.1,261.0 477.1,263.2 483.1,264.9 489.1,266.1 495.1,266.8 501.1,267.1\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><line x1=\"357.1\" y1=\"199.4\" x2=\"357.1\" y2=\"276.1\" stroke=\"#2B201C\" stroke-width=\"1.2\"/><text x=\"353.5\" y=\"193.4\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"12.0\" fill=\"#2B201C\" text-anchor=\"start\">FRONT</text><text x=\"429.1\" y=\"294.1\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"400\" font-size=\"13.2\" fill=\"#2B201C\" text-anchor=\"middle\">a wedge from the side</text><circle cx=\"59.3\" cy=\"59.3\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"59.3\" y=\"65.3\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">1</text><circle cx=\"147.4\" cy=\"88.7\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"147.4\" y=\"94.7\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">2</text><circle cx=\"165.0\" cy=\"123.9\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"165.0\" y=\"129.9\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">3</text><circle cx=\"88.7\" cy=\"136.7\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"88.7\" y=\"142.7\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">4</text><circle cx=\"400.3\" cy=\"255.3\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"400.3\" y=\"261.3\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">5</text></svg>",
    "notes": [
     {
      "n": 1,
@@ -103,7 +112,7 @@
     },
     {
      "n": 4,
-     "text": "the duct behind: 190 cm2, a third more than the hole"
+     "text": "the duct behind: 191 cm2, a third more than the hole"
     },
     {
      "n": 5,
@@ -115,12 +124,12 @@
    "id": "section-c",
    "title": "Section C-C: corner to corner through both ducts (front on the left, 86 cm across)",
    "scale": "1:6",
-   "wcm": 86.0,
-   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 516 590\" role=\"img\" aria-label=\"Section C-C: corner to corner through both ducts (front on the left, 86 cm across)\"><rect x=\"27.0\" y=\"28.2\" width=\"463.8\" height=\"497.2\" fill=\"#FFF3EA\"/><rect x=\"18.0\" y=\"28.2\" width=\"411.0\" height=\"82.6\" fill=\"#FF9B70\"/><rect x=\"27.0\" y=\"110.8\" width=\"402.0\" height=\"7.2\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><rect x=\"18.0\" y=\"442.8\" width=\"411.0\" height=\"82.6\" fill=\"#FF9B70\"/><rect x=\"27.0\" y=\"435.6\" width=\"402.0\" height=\"7.2\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><rect x=\"18.0\" y=\"18.0\" width=\"480.0\" height=\"10.2\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><rect x=\"18.0\" y=\"525.4\" width=\"480.0\" height=\"10.2\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><rect x=\"18.0\" y=\"110.8\" width=\"9.0\" height=\"41.5\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><rect x=\"18.0\" y=\"401.3\" width=\"9.0\" height=\"41.5\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><rect x=\"27.0\" y=\"129.8\" width=\"7.2\" height=\"22.5\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"27.0\" y=\"401.3\" width=\"7.2\" height=\"22.5\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"490.8\" y=\"28.2\" width=\"7.2\" height=\"497.2\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><rect x=\"454.8\" y=\"271.7\" width=\"36.0\" height=\"10.2\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><line x1=\"150.0\" y1=\"124.0\" x2=\"150.0\" y2=\"429.6\" stroke=\"#8A6A3C\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><line x1=\"306.0\" y1=\"124.0\" x2=\"306.0\" y2=\"429.6\" stroke=\"#8A6A3C\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><rect x=\"12.0\" y=\"138.8\" width=\"6.0\" height=\"13.5\" fill=\"#1F1C1C\"/><line x1=\"19.2\" y1=\"152.3\" x2=\"108.0\" y2=\"197.6\" stroke=\"#3A3636\" stroke-width=\"5.4\"/><path d=\"M 18.6 149.0 Q 10.2 154.4 21.6 160.4\" fill=\"none\" stroke=\"#1F1C1C\" stroke-width=\"2.7\"/><line x1=\"21.6\" y1=\"160.4\" x2=\"84.0\" y2=\"237.2\" stroke=\"#1F1C1C\" stroke-width=\"3.0\"/><line x1=\"84.0\" y1=\"246.8\" x2=\"123.6\" y2=\"246.8\" stroke=\"#C07A3A\" stroke-width=\"2.7\"/><rect x=\"108.0\" y=\"197.6\" width=\"9.0\" height=\"46.8\" fill=\"#5E5757\"/><rect x=\"117.0\" y=\"191.6\" width=\"30.0\" height=\"45.6\" fill=\"#2C2828\"/><rect x=\"12.0\" y=\"401.3\" width=\"6.0\" height=\"13.5\" fill=\"#1F1C1C\"/><line x1=\"19.2\" y1=\"401.3\" x2=\"108.0\" y2=\"356.0\" stroke=\"#3A3636\" stroke-width=\"5.4\"/><path d=\"M 18.6 404.6 Q 10.2 399.2 21.6 393.2\" fill=\"none\" stroke=\"#1F1C1C\" stroke-width=\"2.7\"/><line x1=\"21.6\" y1=\"393.2\" x2=\"84.0\" y2=\"316.4\" stroke=\"#1F1C1C\" stroke-width=\"3.0\"/><line x1=\"84.0\" y1=\"306.8\" x2=\"123.6\" y2=\"306.8\" stroke=\"#C07A3A\" stroke-width=\"2.7\"/><rect x=\"108.0\" y=\"309.2\" width=\"9.0\" height=\"46.8\" fill=\"#5E5757\"/><rect x=\"117.0\" y=\"316.4\" width=\"30.0\" height=\"45.6\" fill=\"#2C2828\"/><path d=\"M 84.0 237.2 Q 62.4 276.8 84.0 316.4\" fill=\"none\" stroke=\"#1F1C1C\" stroke-width=\"2.7\"/><rect x=\"147.0\" y=\"191.6\" width=\"9.0\" height=\"170.4\" fill=\"#5E5757\"/><rect x=\"108.0\" y=\"247.4\" width=\"39.0\" height=\"58.8\" fill=\"#5E5757\"/><rect x=\"108.0\" y=\"268.4\" width=\"48.0\" height=\"16.8\" fill=\"#FFF3EA\"/><text x=\"18.0\" y=\"577.6\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"13.2\" fill=\"#2B201C\" text-anchor=\"start\">FRONT</text><text x=\"498.0\" y=\"577.6\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"13.2\" fill=\"#2B201C\" text-anchor=\"end\">BACK</text><circle cx=\"198.0\" cy=\"69.5\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"198.0\" y=\"75.5\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">1</text><circle cx=\"288.0\" cy=\"114.4\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"288.0\" y=\"120.4\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">2</text><circle cx=\"459.9\" cy=\"69.5\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"459.9\" y=\"75.5\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">3</text><circle cx=\"30.6\" cy=\"143.3\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"30.6\" y=\"149.3\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">4</text><circle cx=\"150.0\" cy=\"426.8\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"150.0\" y=\"432.8\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">5</text><circle cx=\"472.8\" cy=\"276.8\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"472.8\" y=\"282.8\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">6</text></svg>",
+   "wcm": 91.0,
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 546 590\" role=\"img\" aria-label=\"Section C-C: corner to corner through both ducts (front on the left, 86 cm across)\"><rect x=\"48.0\" y=\"30.7\" width=\"472.8\" height=\"492.1\" fill=\"#FFF3EA\"/><rect x=\"39.0\" y=\"30.7\" width=\"417.0\" height=\"83.0\" fill=\"#FF9B70\"/><rect x=\"48.0\" y=\"113.7\" width=\"408.0\" height=\"7.2\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><rect x=\"513.6\" y=\"30.7\" width=\"7.2\" height=\"17.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"39.0\" y=\"439.9\" width=\"417.0\" height=\"83.0\" fill=\"#FF9B70\"/><rect x=\"48.0\" y=\"432.7\" width=\"408.0\" height=\"7.2\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><rect x=\"513.6\" y=\"505.9\" width=\"7.2\" height=\"17.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"18.0\" y=\"18.0\" width=\"510.0\" height=\"12.7\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><rect x=\"18.0\" y=\"522.9\" width=\"510.0\" height=\"12.7\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><rect x=\"39.0\" y=\"113.7\" width=\"9.0\" height=\"38.6\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><rect x=\"39.0\" y=\"401.3\" width=\"9.0\" height=\"38.6\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><rect x=\"48.0\" y=\"129.8\" width=\"7.2\" height=\"22.5\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"48.0\" y=\"401.3\" width=\"7.2\" height=\"22.5\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"520.8\" y=\"30.7\" width=\"7.2\" height=\"492.1\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><rect x=\"484.8\" y=\"271.7\" width=\"36.0\" height=\"10.2\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><line x1=\"168.0\" y1=\"126.9\" x2=\"168.0\" y2=\"426.7\" stroke=\"#8A6A3C\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><line x1=\"312.0\" y1=\"126.9\" x2=\"312.0\" y2=\"426.7\" stroke=\"#8A6A3C\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><rect x=\"33.0\" y=\"138.8\" width=\"6.0\" height=\"13.5\" fill=\"#1F1C1C\"/><line x1=\"40.2\" y1=\"152.3\" x2=\"129.0\" y2=\"197.6\" stroke=\"#3A3636\" stroke-width=\"5.4\"/><path d=\"M 39.6 149.0 Q 31.2 154.4 42.6 160.4\" fill=\"none\" stroke=\"#1F1C1C\" stroke-width=\"2.7\"/><line x1=\"42.6\" y1=\"160.4\" x2=\"105.0\" y2=\"237.2\" stroke=\"#1F1C1C\" stroke-width=\"3.0\"/><line x1=\"105.0\" y1=\"246.8\" x2=\"144.6\" y2=\"246.8\" stroke=\"#C07A3A\" stroke-width=\"2.7\"/><rect x=\"129.0\" y=\"197.6\" width=\"9.0\" height=\"46.8\" fill=\"#5E5757\"/><rect x=\"138.0\" y=\"191.6\" width=\"30.0\" height=\"45.6\" fill=\"#2C2828\"/><rect x=\"33.0\" y=\"401.3\" width=\"6.0\" height=\"13.5\" fill=\"#1F1C1C\"/><line x1=\"40.2\" y1=\"401.3\" x2=\"129.0\" y2=\"356.0\" stroke=\"#3A3636\" stroke-width=\"5.4\"/><path d=\"M 39.6 404.6 Q 31.2 399.2 42.6 393.2\" fill=\"none\" stroke=\"#1F1C1C\" stroke-width=\"2.7\"/><line x1=\"42.6\" y1=\"393.2\" x2=\"105.0\" y2=\"316.4\" stroke=\"#1F1C1C\" stroke-width=\"3.0\"/><line x1=\"105.0\" y1=\"306.8\" x2=\"144.6\" y2=\"306.8\" stroke=\"#C07A3A\" stroke-width=\"2.7\"/><rect x=\"129.0\" y=\"309.2\" width=\"9.0\" height=\"46.8\" fill=\"#5E5757\"/><rect x=\"138.0\" y=\"316.4\" width=\"30.0\" height=\"45.6\" fill=\"#2C2828\"/><path d=\"M 105.0 237.2 Q 83.4 276.8 105.0 316.4\" fill=\"none\" stroke=\"#1F1C1C\" stroke-width=\"2.7\"/><rect x=\"168.0\" y=\"191.6\" width=\"9.0\" height=\"170.4\" fill=\"#5E5757\"/><rect x=\"129.0\" y=\"247.4\" width=\"39.0\" height=\"58.8\" fill=\"#5E5757\"/><rect x=\"129.0\" y=\"268.4\" width=\"48.0\" height=\"16.8\" fill=\"#FFF3EA\"/><text x=\"18.0\" y=\"577.6\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"13.2\" fill=\"#2B201C\" text-anchor=\"start\">FRONT</text><text x=\"528.0\" y=\"577.6\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"13.2\" fill=\"#2B201C\" text-anchor=\"end\">BACK</text><circle cx=\"198.0\" cy=\"72.2\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"198.0\" y=\"78.2\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">1</text><circle cx=\"288.0\" cy=\"117.3\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"288.0\" y=\"123.3\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">2</text><circle cx=\"488.4\" cy=\"72.2\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"488.4\" y=\"78.2\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">3</text><circle cx=\"28.5\" cy=\"425.3\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"28.5\" y=\"431.3\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">4</text><circle cx=\"51.6\" cy=\"143.3\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"51.6\" y=\"149.3\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">5</text><circle cx=\"168.0\" cy=\"426.8\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"168.0\" y=\"432.8\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">6</text><circle cx=\"502.8\" cy=\"276.8\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"502.8\" y=\"282.8\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">7</text></svg>",
    "notes": [
     {
      "n": 1,
-     "text": "duct: 13.8 cm on the diagonal, the same as the mouth, 67 cm long behind the front (68.5 cm with the front)"
+     "text": "duct: 13.8 cm on the diagonal, the same as the mouth, 68 cm long behind the front (69.5 cm with the front)"
     },
     {
      "n": 2,
@@ -128,18 +137,22 @@
     },
     {
      "n": 3,
-     "text": "open end 10 cm clear of the back panel"
+     "text": "open end 11 cm clear of the back panel"
     },
     {
      "n": 4,
-     "text": "doubler ring behind the front, 12 mm, out to 24.5 cm radius: 2 cm clear of the duct panels"
+     "text": "the front panel sits 35 mm back from the box's front edges: room for the driver's 13 mm flange and its cone travel, with no grille"
     },
     {
      "n": 5,
-     "text": "dashed: the two ring braces, beyond the cut (they run round the walls: see R-R)"
+     "text": "doubler ring behind the front, 12 mm, out to 24.5 cm radius: 1.5 cm clear of the duct panels"
     },
     {
      "n": 6,
+     "text": "dashed: the two ring braces, beyond the cut (they run round the walls: see R-R)"
+    },
+    {
+     "n": 7,
      "text": "back brace cross, cut where its arms meet"
     }
    ]
@@ -148,8 +161,8 @@
    "id": "section-s",
    "title": "Section S-S: vertical cut through the middle (front on the left)",
    "scale": "1:6",
-   "wcm": 86.0,
-   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 516 438\" role=\"img\" aria-label=\"Section S-S: vertical cut through the middle (front on the left)\"><rect x=\"27.0\" y=\"25.2\" width=\"463.8\" height=\"351.6\" fill=\"#FFF3EA\"/><rect x=\"27.0\" y=\"25.2\" width=\"402.0\" height=\"127.1\" fill=\"#EFDDBF\" stroke=\"#5A4A3A\" stroke-width=\"1.2\"/><rect x=\"18.0\" y=\"18.0\" width=\"480.0\" height=\"7.2\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><rect x=\"18.0\" y=\"376.8\" width=\"480.0\" height=\"7.2\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><rect x=\"18.0\" y=\"25.2\" width=\"9.0\" height=\"51.3\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><rect x=\"18.0\" y=\"325.5\" width=\"9.0\" height=\"51.3\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><rect x=\"27.0\" y=\"54.0\" width=\"7.2\" height=\"22.5\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"27.0\" y=\"325.5\" width=\"7.2\" height=\"22.5\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"490.8\" y=\"25.2\" width=\"7.2\" height=\"351.6\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><rect x=\"34.2\" y=\"25.2\" width=\"420.6\" height=\"36.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"34.2\" y=\"340.8\" width=\"420.6\" height=\"36.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"150.0\" y=\"25.2\" width=\"7.2\" height=\"48.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"150.0\" y=\"328.8\" width=\"7.2\" height=\"48.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"306.0\" y=\"25.2\" width=\"7.2\" height=\"48.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"306.0\" y=\"328.8\" width=\"7.2\" height=\"48.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"454.8\" y=\"25.2\" width=\"36.0\" height=\"351.6\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"27.0\" y=\"25.2\" width=\"12.0\" height=\"12.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"27.0\" y=\"364.8\" width=\"12.0\" height=\"12.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"478.8\" y=\"25.2\" width=\"12.0\" height=\"12.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"478.8\" y=\"364.8\" width=\"12.0\" height=\"12.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"12.0\" y=\"63.0\" width=\"6.0\" height=\"13.5\" fill=\"#1F1C1C\"/><line x1=\"19.2\" y1=\"76.5\" x2=\"108.0\" y2=\"121.8\" stroke=\"#3A3636\" stroke-width=\"5.4\"/><path d=\"M 18.6 73.2 Q 10.2 78.6 21.6 84.6\" fill=\"none\" stroke=\"#1F1C1C\" stroke-width=\"2.7\"/><line x1=\"21.6\" y1=\"84.6\" x2=\"84.0\" y2=\"161.4\" stroke=\"#1F1C1C\" stroke-width=\"3.0\"/><line x1=\"84.0\" y1=\"171.0\" x2=\"123.6\" y2=\"171.0\" stroke=\"#C07A3A\" stroke-width=\"2.7\"/><rect x=\"108.0\" y=\"121.8\" width=\"9.0\" height=\"46.8\" fill=\"#5E5757\"/><rect x=\"117.0\" y=\"115.8\" width=\"30.0\" height=\"45.6\" fill=\"#2C2828\"/><rect x=\"12.0\" y=\"325.5\" width=\"6.0\" height=\"13.5\" fill=\"#1F1C1C\"/><line x1=\"19.2\" y1=\"325.5\" x2=\"108.0\" y2=\"280.2\" stroke=\"#3A3636\" stroke-width=\"5.4\"/><path d=\"M 18.6 328.8 Q 10.2 323.4 21.6 317.4\" fill=\"none\" stroke=\"#1F1C1C\" stroke-width=\"2.7\"/><line x1=\"21.6\" y1=\"317.4\" x2=\"84.0\" y2=\"240.6\" stroke=\"#1F1C1C\" stroke-width=\"3.0\"/><line x1=\"84.0\" y1=\"231.0\" x2=\"123.6\" y2=\"231.0\" stroke=\"#C07A3A\" stroke-width=\"2.7\"/><rect x=\"108.0\" y=\"233.4\" width=\"9.0\" height=\"46.8\" fill=\"#5E5757\"/><rect x=\"117.0\" y=\"240.6\" width=\"30.0\" height=\"45.6\" fill=\"#2C2828\"/><path d=\"M 84.0 161.4 Q 62.4 201.0 84.0 240.6\" fill=\"none\" stroke=\"#1F1C1C\" stroke-width=\"2.7\"/><rect x=\"147.0\" y=\"115.8\" width=\"9.0\" height=\"170.4\" fill=\"#5E5757\"/><rect x=\"108.0\" y=\"171.6\" width=\"39.0\" height=\"58.8\" fill=\"#5E5757\"/><rect x=\"108.0\" y=\"192.6\" width=\"48.0\" height=\"16.8\" fill=\"#FFF3EA\"/><rect x=\"171.6\" y=\"162.0\" width=\"120.0\" height=\"78.0\" fill=\"none\" stroke=\"#5A4A3A\" stroke-width=\"1.5\"/><text x=\"18.0\" y=\"426.0\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"13.2\" fill=\"#2B201C\" text-anchor=\"start\">FRONT</text><text x=\"498.0\" y=\"426.0\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"13.2\" fill=\"#2B201C\" text-anchor=\"end\">BACK</text><circle cx=\"348.0\" cy=\"97.2\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"348.0\" y=\"103.2\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">1</text><circle cx=\"270.0\" cy=\"43.2\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"270.0\" y=\"49.2\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">2</text><circle cx=\"153.6\" cy=\"352.8\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"153.6\" y=\"358.8\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">3</text><circle cx=\"472.8\" cy=\"273.0\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"472.8\" y=\"279.0\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">4</text><circle cx=\"30.6\" cy=\"337.5\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"30.6\" y=\"343.5\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">5</text><circle cx=\"33.0\" cy=\"370.8\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"33.0\" y=\"376.8\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">6</text><circle cx=\"231.6\" cy=\"240.0\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"231.6\" y=\"246.0\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">7</text></svg>",
+   "wcm": 91.0,
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 546 438\" role=\"img\" aria-label=\"Section S-S: vertical cut through the middle (front on the left)\"><rect x=\"48.0\" y=\"27.0\" width=\"472.8\" height=\"348.0\" fill=\"#FFF3EA\"/><rect x=\"48.0\" y=\"27.0\" width=\"408.0\" height=\"127.5\" fill=\"#EFDDBF\" stroke=\"#5A4A3A\" stroke-width=\"1.2\"/><rect x=\"18.0\" y=\"18.0\" width=\"510.0\" height=\"9.0\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><rect x=\"18.0\" y=\"375.0\" width=\"510.0\" height=\"9.0\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><rect x=\"39.0\" y=\"27.0\" width=\"9.0\" height=\"49.5\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><rect x=\"39.0\" y=\"325.5\" width=\"9.0\" height=\"49.5\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><rect x=\"48.0\" y=\"54.0\" width=\"7.2\" height=\"22.5\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"48.0\" y=\"325.5\" width=\"7.2\" height=\"22.5\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"520.8\" y=\"27.0\" width=\"7.2\" height=\"348.0\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><rect x=\"513.6\" y=\"27.0\" width=\"7.2\" height=\"12.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"513.6\" y=\"363.0\" width=\"7.2\" height=\"12.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"55.2\" y=\"27.0\" width=\"426.6\" height=\"36.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"55.2\" y=\"339.0\" width=\"426.6\" height=\"36.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"168.0\" y=\"27.0\" width=\"7.2\" height=\"48.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"168.0\" y=\"327.0\" width=\"7.2\" height=\"48.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"312.0\" y=\"27.0\" width=\"7.2\" height=\"48.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"312.0\" y=\"327.0\" width=\"7.2\" height=\"48.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"484.8\" y=\"39.0\" width=\"36.0\" height=\"324.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"48.0\" y=\"27.0\" width=\"12.0\" height=\"12.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"48.0\" y=\"363.0\" width=\"12.0\" height=\"12.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"33.0\" y=\"63.0\" width=\"6.0\" height=\"13.5\" fill=\"#1F1C1C\"/><line x1=\"40.2\" y1=\"76.5\" x2=\"129.0\" y2=\"121.8\" stroke=\"#3A3636\" stroke-width=\"5.4\"/><path d=\"M 39.6 73.2 Q 31.2 78.6 42.6 84.6\" fill=\"none\" stroke=\"#1F1C1C\" stroke-width=\"2.7\"/><line x1=\"42.6\" y1=\"84.6\" x2=\"105.0\" y2=\"161.4\" stroke=\"#1F1C1C\" stroke-width=\"3.0\"/><line x1=\"105.0\" y1=\"171.0\" x2=\"144.6\" y2=\"171.0\" stroke=\"#C07A3A\" stroke-width=\"2.7\"/><rect x=\"129.0\" y=\"121.8\" width=\"9.0\" height=\"46.8\" fill=\"#5E5757\"/><rect x=\"138.0\" y=\"115.8\" width=\"30.0\" height=\"45.6\" fill=\"#2C2828\"/><rect x=\"33.0\" y=\"325.5\" width=\"6.0\" height=\"13.5\" fill=\"#1F1C1C\"/><line x1=\"40.2\" y1=\"325.5\" x2=\"129.0\" y2=\"280.2\" stroke=\"#3A3636\" stroke-width=\"5.4\"/><path d=\"M 39.6 328.8 Q 31.2 323.4 42.6 317.4\" fill=\"none\" stroke=\"#1F1C1C\" stroke-width=\"2.7\"/><line x1=\"42.6\" y1=\"317.4\" x2=\"105.0\" y2=\"240.6\" stroke=\"#1F1C1C\" stroke-width=\"3.0\"/><line x1=\"105.0\" y1=\"231.0\" x2=\"144.6\" y2=\"231.0\" stroke=\"#C07A3A\" stroke-width=\"2.7\"/><rect x=\"129.0\" y=\"233.4\" width=\"9.0\" height=\"46.8\" fill=\"#5E5757\"/><rect x=\"138.0\" y=\"240.6\" width=\"30.0\" height=\"45.6\" fill=\"#2C2828\"/><path d=\"M 105.0 161.4 Q 83.4 201.0 105.0 240.6\" fill=\"none\" stroke=\"#1F1C1C\" stroke-width=\"2.7\"/><rect x=\"168.0\" y=\"115.8\" width=\"9.0\" height=\"170.4\" fill=\"#5E5757\"/><rect x=\"129.0\" y=\"171.6\" width=\"39.0\" height=\"58.8\" fill=\"#5E5757\"/><rect x=\"129.0\" y=\"192.6\" width=\"48.0\" height=\"16.8\" fill=\"#FFF3EA\"/><rect x=\"183.6\" y=\"162.0\" width=\"120.0\" height=\"78.0\" fill=\"none\" stroke=\"#5A4A3A\" stroke-width=\"1.5\"/><text x=\"18.0\" y=\"426.0\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"13.2\" fill=\"#2B201C\" text-anchor=\"start\">FRONT</text><text x=\"528.0\" y=\"426.0\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"13.2\" fill=\"#2B201C\" text-anchor=\"end\">BACK</text><circle cx=\"366.0\" cy=\"99.0\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"366.0\" y=\"105.0\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">1</text><circle cx=\"270.0\" cy=\"45.0\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"270.0\" y=\"51.0\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">2</text><circle cx=\"171.6\" cy=\"351.0\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"171.6\" y=\"357.0\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">3</text><circle cx=\"502.8\" cy=\"273.0\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"502.8\" y=\"279.0\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">4</text><circle cx=\"51.6\" cy=\"337.5\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"51.6\" y=\"343.5\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">5</text><circle cx=\"54.0\" cy=\"369.0\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"54.0\" y=\"375.0\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">6</text><circle cx=\"517.2\" cy=\"369.0\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"517.2\" y=\"375.0\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">7</text><circle cx=\"243.6\" cy=\"240.0\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"243.6\" y=\"246.0\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">8</text></svg>",
    "notes": [
     {
      "n": 1,
@@ -157,40 +170,44 @@
     },
     {
      "n": 2,
-     "text": "spines: 6 cm on edge under the top and over the bottom, halved into the ring braces"
+     "text": "spines: 6 cm on edge under the top and over the bottom, halved into the ring braces; they stop 5 mm short of the back brace (or felt the ends) so they can't rattle against it"
     },
     {
      "n": 3,
-     "text": "ring braces at 22 and 48 cm: 8 cm frames that split every wall into spans under 30 cm"
+     "text": "ring braces at 25 and 49 cm: 8 cm frames that keep every wall span under 35 cm"
     },
     {
      "n": 4,
-     "text": "back brace cross: two 6 cm strips on edge"
+     "text": "back brace cross: two 6 cm strips on edge, fixed to the back"
     },
     {
      "n": 5,
-     "text": "doubler: M6 bolts through 27 mm into tee nuts"
+     "text": "doubler: the driver screws into 27 mm (pilot-drilled). On a prototype for trying other drivers, M6 bolts into tee nuts instead"
     },
     {
      "n": 6,
-     "text": "glue blocks round the front and back panels"
+     "text": "glue blocks behind the front panel"
     },
     {
      "n": 7,
-     "text": "outline: handle cup in the far side, between the rings; the weight centre is about 34 cm back"
+     "text": "cleats: 20 mm strips of 12 mm ply round the back opening, set in 12 mm. The back screws to them, with foam gasket tape on the prototype so it comes off"
+    },
+    {
+     "n": 8,
+     "text": "outline: handle cup in the far side, between the rings, centred on the weight (about 38 cm back)"
     }
    ]
   },
   {
    "id": "section-r",
-   "title": "Section R-R: through the rear ring brace (48 cm back), looking toward the back",
+   "title": "Section R-R: through the rear ring brace (49 cm back), looking toward the back",
    "scale": "1:6",
    "wcm": 67.0,
-   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 402 402\" role=\"img\" aria-label=\"Section R-R: through the rear ring brace (48 cm back), looking toward the back\"><rect x=\"18.0\" y=\"18.0\" width=\"366.0\" height=\"366.0\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><rect x=\"25.2\" y=\"25.2\" width=\"351.6\" height=\"351.6\" fill=\"#EFDDBF\"/><rect x=\"219.0\" y=\"37.2\" width=\"145.8\" height=\"145.8\" fill=\"#F3E9F7\" stroke=\"#B79BC4\" stroke-width=\"0.9\"/><rect x=\"37.2\" y=\"219.0\" width=\"145.8\" height=\"145.8\" fill=\"#F3E9F7\" stroke=\"#B79BC4\" stroke-width=\"0.9\"/><rect x=\"197.4\" y=\"25.2\" width=\"7.2\" height=\"351.6\" fill=\"#EFDDBF\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"25.2\" y=\"197.4\" width=\"351.6\" height=\"7.2\" fill=\"#EFDDBF\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"25.2\" y=\"25.2\" width=\"351.6\" height=\"48.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"25.2\" y=\"328.8\" width=\"351.6\" height=\"48.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"25.2\" y=\"73.2\" width=\"48.0\" height=\"255.6\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"328.8\" y=\"73.2\" width=\"48.0\" height=\"255.6\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><polygon points=\"142.1,25.2 152.3,25.2 25.2,152.3 25.2,142.1\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><polygon points=\"25.2,25.2 142.1,25.2 25.2,142.1\" fill=\"#FF9B70\"/><polygon points=\"259.9,376.8 249.7,376.8 376.8,249.7 376.8,259.9\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><polygon points=\"376.8,376.8 259.9,376.8 376.8,259.9\" fill=\"#FF9B70\"/><rect x=\"197.4\" y=\"25.2\" width=\"7.2\" height=\"36.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"197.4\" y=\"340.8\" width=\"7.2\" height=\"36.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"364.8\" y=\"25.2\" width=\"12.0\" height=\"12.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"25.2\" y=\"364.8\" width=\"12.0\" height=\"12.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><circle cx=\"64.2\" cy=\"64.2\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"64.2\" y=\"70.2\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">1</text><circle cx=\"86.2\" cy=\"86.2\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"86.2\" y=\"92.2\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">2</text><circle cx=\"273.0\" cy=\"49.2\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"273.0\" y=\"55.2\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">3</text><circle cx=\"201.0\" cy=\"55.2\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"201.0\" y=\"61.2\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">4</text><circle cx=\"292.5\" cy=\"109.5\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"292.5\" y=\"115.5\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">5</text><circle cx=\"370.8\" cy=\"31.2\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"370.8\" y=\"37.2\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">6</text></svg>",
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 402 402\" role=\"img\" aria-label=\"Section R-R: through the rear ring brace (49 cm back), looking toward the back\"><rect x=\"18.0\" y=\"18.0\" width=\"366.0\" height=\"366.0\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><rect x=\"27.0\" y=\"27.0\" width=\"348.0\" height=\"348.0\" fill=\"#EFDDBF\"/><rect x=\"219.0\" y=\"45.0\" width=\"138.0\" height=\"138.0\" fill=\"#F3E9F7\" stroke=\"#B79BC4\" stroke-width=\"0.9\"/><rect x=\"45.0\" y=\"219.0\" width=\"138.0\" height=\"138.0\" fill=\"#F3E9F7\" stroke=\"#B79BC4\" stroke-width=\"0.9\"/><rect x=\"27.0\" y=\"27.0\" width=\"348.0\" height=\"348.0\" fill=\"none\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"39.0\" y=\"39.0\" width=\"324.0\" height=\"324.0\" fill=\"none\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"197.4\" y=\"39.0\" width=\"7.2\" height=\"324.0\" fill=\"#EFDDBF\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"39.0\" y=\"197.4\" width=\"324.0\" height=\"7.2\" fill=\"#EFDDBF\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"27.0\" y=\"27.0\" width=\"348.0\" height=\"48.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"27.0\" y=\"327.0\" width=\"348.0\" height=\"48.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"27.0\" y=\"75.0\" width=\"48.0\" height=\"252.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"327.0\" y=\"75.0\" width=\"48.0\" height=\"252.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><polygon points=\"144.4,27.0 154.5,27.0 27.0,154.5 27.0,144.4\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><polygon points=\"27.0,27.0 144.4,27.0 27.0,144.4\" fill=\"#FF9B70\"/><polygon points=\"257.6,375.0 247.5,375.0 375.0,247.5 375.0,257.6\" fill=\"#E8D2A6\" stroke=\"#A88A5C\" stroke-width=\"0.9\"/><polygon points=\"375.0,375.0 257.6,375.0 375.0,257.6\" fill=\"#FF9B70\"/><rect x=\"197.4\" y=\"27.0\" width=\"7.2\" height=\"36.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"197.4\" y=\"339.0\" width=\"7.2\" height=\"36.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"363.0\" y=\"27.0\" width=\"12.0\" height=\"12.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><rect x=\"27.0\" y=\"363.0\" width=\"12.0\" height=\"12.0\" fill=\"#D9B77F\" stroke=\"#8A6A3C\" stroke-width=\"0.9\"/><circle cx=\"66.1\" cy=\"66.1\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"66.1\" y=\"72.1\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">1</text><circle cx=\"88.2\" cy=\"88.2\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"88.2\" y=\"94.2\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">2</text><circle cx=\"273.0\" cy=\"51.0\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"273.0\" y=\"57.0\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">3</text><circle cx=\"201.0\" cy=\"57.0\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"201.0\" y=\"63.0\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">4</text><circle cx=\"292.5\" cy=\"109.5\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"292.5\" y=\"115.5\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">5</text><circle cx=\"369.0\" cy=\"33.0\" r=\"13.8\" fill=\"#2B201C\" stroke=\"#FFFFFF\" stroke-width=\"2.1\"/><text x=\"369.0\" y=\"39.0\" font-family=\"Arial Black, Helvetica Neue, Arial, sans-serif\" font-weight=\"900\" font-size=\"16.8\" fill=\"#FFFFFF\" text-anchor=\"middle\">6</text></svg>",
    "notes": [
     {
      "n": 1,
-     "text": "duct air: a right triangle, legs 19.5 cm"
+     "text": "duct air: a right triangle, legs 19.6 cm"
     },
     {
      "n": 2,
@@ -206,7 +223,7 @@
     },
     {
      "n": 5,
-     "text": "beyond: back brace cross and 5 cm wadding in the two quarters away from the duct ends"
+     "text": "beyond: back brace cross, the cleats round the back, and 5 cm wadding in the two quarters away from the duct ends"
     },
     {
      "n": 6,
@@ -214,7 +231,7 @@
     },
     {
      "n": null,
-     "text": "Handles: in the side panels between the ring braces (see S-S); they clear the duct panels by about 1.5 cm."
+     "text": "Handles: sealed cups in the side panels between the ring braces (see S-S); a cup up to 13 cm tall clears the duct panels by about 1.2 cm."
     }
    ]
   }
@@ -223,49 +240,55 @@
   {
    "name": "Top and bottom",
    "count": "2",
-   "size": "61 x 80 cm",
-   "material": "12 mm"
+   "size": "61 x 85 cm",
+   "material": "15 mm"
   },
   {
    "name": "Sides",
    "count": "2",
-   "size": "58.6 x 80 cm, between top and bottom",
-   "material": "12 mm"
+   "size": "58.0 x 85 cm, between top and bottom",
+   "material": "15 mm"
   },
   {
    "name": "Front",
    "count": "1",
-   "size": "58.6 x 58.6 cm, inset; driver cut-out and two stepped mouths",
+   "size": "58.0 x 58.0 cm, set back 35 mm; driver cut-out and two stepped mouths",
    "material": "15 mm"
   },
   {
    "name": "Back",
    "count": "1",
-   "size": "58.6 x 58.6 cm, inset; connector plate",
+   "size": "57.8 x 57.8 cm (2 mm under the opening), on the cleats; Speakon plate on the inside",
+   "material": "12 mm"
+  },
+  {
+   "name": "Back cleats",
+   "count": "4",
+   "size": "20 mm strips round the back opening, set in 12 mm (about 2.3 m)",
    "material": "12 mm"
   },
   {
    "name": "Duct panels",
    "count": "2",
-   "size": "29.9 cm wide (outer face) x 67 cm, both long edges at 45 degrees",
+   "size": "30.1 cm wide (outer face) x 68 cm, both long edges at 45 degrees",
    "material": "12 mm"
   },
   {
    "name": "Ring brace frames",
    "count": "2",
-   "size": "outside 58.6 x 58.6 cm, 8 cm wide; duct corners cut at 45 degrees",
+   "size": "outside 58.0 x 58.0 cm, 8 cm wide; duct corners cut at 45 degrees",
    "material": "12 mm"
   },
   {
    "name": "Spines",
    "count": "2",
-   "size": "about 70 x 6 cm, on edge, halved into the rings",
+   "size": "about 71 x 6 cm, on edge, halved into the rings, 5 mm short of the back brace",
    "material": "12 mm"
   },
   {
    "name": "Back brace cross",
    "count": "2",
-   "size": "58.6 x 6 cm, on edge, halved where they cross",
+   "size": "54 x 6 cm, on edge, halved where they cross, between the cleats",
    "material": "12 mm"
   },
   {
@@ -282,14 +305,14 @@
   },
   {
    "name": "Glue blocks",
-   "count": "6 m",
-   "size": "20 x 20 mm strip: round the front and back, two long edges",
+   "count": "4 m",
+   "size": "20 x 20 mm strip: behind the front panel, and the two duct-free long edges",
    "material": "softwood"
   },
   {
    "name": "Wadding",
    "count": "2",
-   "size": "about 24 x 24 cm, 5 cm thick, on the back",
+   "size": "about 22 x 22 cm, 5 cm thick, on the back",
    "material": "polyester"
   }
  ]

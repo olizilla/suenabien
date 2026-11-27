@@ -1,0 +1,21 @@
+---
+// Old versions of the Pirámide 80 build sheet, frozen in src/builds/piramide-80/vN/ (sheet.json and checklist.md).
+// To keep a version before replacing it, copy those two files into a new vN/ folder.
+import BuildSheet from '../../../components/BuildSheet.astro';
+import current from '../../../builds/piramide-80/sheet.json';
+
+export function getStaticPaths() {
+  const sheets = import.meta.glob('../../../builds/piramide-80/v*/sheet.json', { eager: true });
+  const checklists = import.meta.glob('../../../builds/piramide-80/v*/checklist.md', { eager: true });
+  return Object.entries(sheets).map(([f, mod]) => {
+    const v = f.match(/\/(v\d+)\//)[1];
+    const checklist = Object.entries(checklists).find(([c]) => c.includes(`/${v}/`))[1];
+    return { params: { version: v }, props: { sheet: mod.default, Checklist: checklist.Content } };
+  });
+}
+
+const { sheet, Checklist } = Astro.props;
+---
+
+<BuildSheet sheet={sheet} Checklist={Checklist} path={`/build/piramide-80/${Astro.params.version}/`}
+  current={{ version: current.version, href: '/build/piramide-80/' }} />
