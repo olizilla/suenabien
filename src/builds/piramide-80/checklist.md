@@ -37,7 +37,7 @@ BFM's tips from his plan:
 - **Outside edges:** a 10 mm round-over.
 
 Then:
-- **Spines.** Stop them about 5 mm short of the brace on the back panel, or put felt on their ends. On the prototype the back comes off, and the spines mustn't rattle against its brace.
+- **Spines.** Cut a 12 mm × 6 cm slot in the middle of the top and bottom of each ring brace. Once the rings are in, slide each spine in from the back through both slots, and glue it to the panel and into the slots. (A halving joint can't go together inside the closed box.) Stop the spines about 5 mm short of the brace on the back panel, or put felt on their ends. On the prototype the back comes off, and the spines mustn't rattle against its brace.
 - **Duct panels.** Glue both long edges along their full length. A gap leaks air alongside the port: it can whistle and moves the tuning.
 - **Printed wedges.** Each mouth has four pockets behind its front panel, where the triangular duct is wider than the stepped hole: two behind the teeth and two where the end steps meet the walls. Fill each with a 3D-printed wedge (see the mouth detail). That's 8 per box: 4 tooth wedges and 4 end wedges, two of them mirrored.
   - **Shape:** each wedge carries the step straight back, then eases down to the duct panel over 12 cm on a smooth S-curve.

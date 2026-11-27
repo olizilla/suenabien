@@ -10,4 +10,5 @@ const archived = Object.keys(import.meta.glob('../../../builds/piramide-80/v*/sh
   .map((f) => Number(f.match(/\/v(\d+)\//)[1]));
 ---
 
-<BuildSheet sheet={sheet} Checklist={Content} path="/build/piramide-80/" archived={archived} />
+<BuildSheet sheet={sheet} Checklist={Content} path="/build/piramide-80/" archived={archived}
+  assemblyHref="/build/piramide-80/assembly/" />
